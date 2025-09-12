@@ -74,7 +74,7 @@ public class RegisterUserTest {
             System.out.println("Filling account information...");
             signupPage.selectTitle("Mr");
             signupPage.enterPassword("password123");
-            signupPage.selectDateOfBirth("10", "1", "1990");
+            signupPage.selectDateOfBirth("14", "2", "2003");
             
             // 10. Select checkbox 'Sign up for our newsletter!'
             signupPage.checkNewsletter();
@@ -88,10 +88,10 @@ public class RegisterUserTest {
                 "User", 
                 "Test Company", 
                 "123 Test Street", 
-                "Apt 1", 
+                "Apt 9", 
                 "United States", 
-                "California", 
-                "Los Angeles", 
+                "nasrcity", 
+                "Cairo", 
                 "90001", 
                 "1234567890"
             );

@@ -3,32 +3,38 @@
 
 <suite name="MySuite">
 
-    <!-- First package -->
+    <!-- First package
     <test name="TestPackageOne">
         <packages>
             <package name="packageOne_testng"/>
         </packages>
     </test>
-
-    <!-- Second package -->
+ -->
+    <!-- Second package
     <test name="TestPackageTwo">
         <packages>
             <package name="packageTwo_testng"/>
         </packages>
     </test>
-
-    <!-- A specific test class inside TestCases package -->
+ -->
+    <!-- A specific test class inside TestCases package
     <test name="RegisterUserTest">
         <classes>
             <class name="testCases.RegisterUserTest"/>
         </classes>
     </test>
-
-    <!-- Whole TestCases package -->
+     -->
+    <!-- Login User Test -->
+    <test name="LoginUserTest">
+        <classes>
+            <class name="testCases.LoginUserTest"/>
+        </classes>
+    </test>
+    <!-- Whole TestCases package 
     <test name="TestCases">
         <packages>
             <package name="testCases"/>
         </packages>
     </test>
-
+-->
 </suite>

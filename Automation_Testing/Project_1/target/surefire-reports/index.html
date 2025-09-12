@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-MySuite" class="navigator-link">
-              <span class="suite-name border-passed">MySuite</span>
+              <span class="suite-name border-failed">MySuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -55,7 +55,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-MySuite" class="navigator-link ">
-                    <span class="test-stats">4 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,116 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">20 methods,   20 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-MySuite" class="hide-methods passed suite-MySuite"> (hide)</a> <!-- hide-methods passed suite-MySuite -->
-                      <a href="#" panel-name="suite-MySuite" class="show-methods passed suite-MySuite"> (show)</a> <!-- show-methods passed suite-MySuite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-MySuite" class="hide-methods failed suite-MySuite"> (hide)</a> <!-- hide-methods failed suite-MySuite -->
+                      <a href="#" panel-name="suite-MySuite" class="show-methods failed suite-MySuite"> (show)</a> <!-- show-methods failed suite-MySuite -->
                     </span>
-                    <div class="method-list-content passed suite-MySuite">
+                    <div class="method-list-content failed suite-MySuite">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MySuite" title="packageOne_testng.ClassOne" class="method navigator-link" hash-for-method="method1">method1</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="testCases.LoginUserTest" class="method navigator-link" hash-for-method="testLoginUserWithCorrectCredentials">testLoginUserWithCorrectCredentials</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MySuite" title="packageTwo_testng.ClassFour" class="method navigator-link" hash-for-method="method10">method10</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MySuite" title="packageTwo_testng.ClassFour" class="method navigator-link" hash-for-method="method11">method11</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MySuite" title="packageTwo_testng.ClassFour" class="method navigator-link" hash-for-method="method12">method12</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MySuite" title="packageTwo_testng.ClassFive" class="method navigator-link" hash-for-method="method13">method13</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MySuite" title="packageTwo_testng.ClassFive" class="method navigator-link" hash-for-method="method14">method14</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MySuite" title="packageTwo_testng.ClassFive" class="method navigator-link" hash-for-method="method15">method15</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MySuite" title="packageTwo_testng.ClassSix" class="method navigator-link" hash-for-method="method16">method16</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MySuite" title="packageTwo_testng.ClassSix" class="method navigator-link" hash-for-method="method17">method17</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MySuite" title="packageTwo_testng.ClassSix" class="method navigator-link" hash-for-method="method18">method18</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MySuite" title="packageOne_testng.ClassOne" class="method navigator-link" hash-for-method="method2">method2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MySuite" title="packageOne_testng.ClassOne" class="method navigator-link" hash-for-method="method3">method3</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MySuite" title="packageOne_testng.ClassTwo" class="method navigator-link" hash-for-method="method4">method4</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MySuite" title="packageOne_testng.ClassTwo" class="method navigator-link" hash-for-method="method5">method5</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MySuite" title="packageOne_testng.ClassTwo" class="method navigator-link" hash-for-method="method6">method6</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MySuite" title="packageOne_testng.ClassThree" class="method navigator-link" hash-for-method="method7">method7</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MySuite" title="packageOne_testng.ClassThree" class="method navigator-link" hash-for-method="method8">method8</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MySuite" title="packageOne_testng.ClassThree" class="method navigator-link" hash-for-method="method9">method9</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MySuite" title="testCases.RegisterUserTest" class="method navigator-link" hash-for-method="testRegisterUser">testRegisterUser</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MySuite" title="testCases.RegisterUserTest" class="method navigator-link" hash-for-method="testRegisterUser">testRegisterUser</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-MySuite -->
+                    </div> <!-- method-list-content failed suite-MySuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -213,202 +118,26 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-MySuite" class="panel MySuite">
-          <div class="suite-MySuite-class-passed">
+          <div class="suite-MySuite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">packageTwo_testng.ClassFour</span>
+              <img src="failed.png"/>
+              <span class="class-name">testCases.LoginUserTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="method10">
-                  </a> <!-- method10 -->
-                  <span class="method-name">method10</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="method11">
-                  </a> <!-- method11 -->
-                  <span class="method-name">method11</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="method12">
-                  </a> <!-- method12 -->
-                  <span class="method-name">method12</span>
+                  <a name="testLoginUserWithCorrectCredentials">
+                  </a> <!-- testLoginUserWithCorrectCredentials -->
+                  <span class="method-name">testLoginUserWithCorrectCredentials</span>
+                  <div class="stack-trace">java.lang.AssertionError: Logged in as username is not visible
+	at testCases.LoginUserTest.testLoginUserWithCorrectCredentials(LoginUserTest.java:74)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MySuite-class-passed -->
-          <div class="suite-MySuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">packageTwo_testng.ClassFive</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="method13">
-                  </a> <!-- method13 -->
-                  <span class="method-name">method13</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="method14">
-                  </a> <!-- method14 -->
-                  <span class="method-name">method14</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="method15">
-                  </a> <!-- method15 -->
-                  <span class="method-name">method15</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MySuite-class-passed -->
-          <div class="suite-MySuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">packageTwo_testng.ClassSix</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="method16">
-                  </a> <!-- method16 -->
-                  <span class="method-name">method16</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="method17">
-                  </a> <!-- method17 -->
-                  <span class="method-name">method17</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="method18">
-                  </a> <!-- method18 -->
-                  <span class="method-name">method18</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MySuite-class-passed -->
-          <div class="suite-MySuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.RegisterUserTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testRegisterUser">
-                  </a> <!-- testRegisterUser -->
-                  <span class="method-name">testRegisterUser</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testRegisterUser">
-                  </a> <!-- testRegisterUser -->
-                  <span class="method-name">testRegisterUser</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MySuite-class-passed -->
-          <div class="suite-MySuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">packageOne_testng.ClassTwo</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="method4">
-                  </a> <!-- method4 -->
-                  <span class="method-name">method4</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="method5">
-                  </a> <!-- method5 -->
-                  <span class="method-name">method5</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="method6">
-                  </a> <!-- method6 -->
-                  <span class="method-name">method6</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MySuite-class-passed -->
-          <div class="suite-MySuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">packageOne_testng.ClassThree</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="method7">
-                  </a> <!-- method7 -->
-                  <span class="method-name">method7</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="method8">
-                  </a> <!-- method8 -->
-                  <span class="method-name">method8</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="method9">
-                  </a> <!-- method9 -->
-                  <span class="method-name">method9</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MySuite-class-passed -->
-          <div class="suite-MySuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">packageOne_testng.ClassOne</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="method1">
-                  </a> <!-- method1 -->
-                  <span class="method-name">method1</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="method2">
-                  </a> <!-- method2 -->
-                  <span class="method-name">method2</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="method3">
-                  </a> <!-- method3 -->
-                  <span class="method-name">method3</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MySuite-class-passed -->
+          </div> <!-- suite-MySuite-class-failed -->
         </div> <!-- panel MySuite -->
         <div panel-name="test-xml-MySuite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -419,39 +148,11 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;MySuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;TestPackageOne&quot; verbose=&quot;0&quot;&gt;
-    &lt;packages&gt;
-      &lt;package name=&quot;packageOne_testng&quot;/&gt;
-    &lt;/packages&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LoginUserTest&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;packageOne_testng.ClassOne&quot;/&gt;
-      &lt;class name=&quot;packageOne_testng.ClassThree&quot;/&gt;
-      &lt;class name=&quot;packageOne_testng.ClassTwo&quot;/&gt;
+      &lt;class name=&quot;testCases.LoginUserTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- TestPackageOne --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;TestPackageTwo&quot; verbose=&quot;0&quot;&gt;
-    &lt;packages&gt;
-      &lt;package name=&quot;packageTwo_testng&quot;/&gt;
-    &lt;/packages&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;packageTwo_testng.ClassFive&quot;/&gt;
-      &lt;class name=&quot;packageTwo_testng.ClassFour&quot;/&gt;
-      &lt;class name=&quot;packageTwo_testng.ClassSix&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- TestPackageTwo --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;RegisterUserTest&quot; verbose=&quot;0&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testCases.RegisterUserTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- RegisterUserTest --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;TestCases&quot; verbose=&quot;0&quot;&gt;
-    &lt;packages&gt;
-      &lt;package name=&quot;testCases&quot;/&gt;
-    &lt;/packages&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testCases.RegisterUserTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- TestCases --&gt;
+  &lt;/test&gt; &lt;!-- LoginUserTest --&gt;
 &lt;/suite&gt; &lt;!-- MySuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -463,16 +164,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">TestPackageOne (3 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">TestPackageTwo (3 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">RegisterUserTest (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">TestCases (1 class)</span>
+                <span class="test-name">LoginUserTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -498,92 +190,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(20);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testRegisterUser')
-data.setCell(0, 2, 'testCases.RegisterUserTest')
-data.setCell(0, 3, 29148);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testRegisterUser')
-data.setCell(1, 2, 'testCases.RegisterUserTest')
-data.setCell(1, 3, 28547);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'method1')
-data.setCell(2, 2, 'packageOne_testng.ClassOne')
-data.setCell(2, 3, 5);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'method8')
-data.setCell(3, 2, 'packageOne_testng.ClassThree')
-data.setCell(3, 3, 1);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'method18')
-data.setCell(4, 2, 'packageTwo_testng.ClassSix')
-data.setCell(4, 3, 1);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'method13')
-data.setCell(5, 2, 'packageTwo_testng.ClassFive')
-data.setCell(5, 3, 1);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'method2')
-data.setCell(6, 2, 'packageOne_testng.ClassOne')
-data.setCell(6, 3, 0);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'method7')
-data.setCell(7, 2, 'packageOne_testng.ClassThree')
-data.setCell(7, 3, 0);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'method6')
-data.setCell(8, 2, 'packageOne_testng.ClassTwo')
-data.setCell(8, 3, 0);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'method4')
-data.setCell(9, 2, 'packageOne_testng.ClassTwo')
-data.setCell(9, 3, 0);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'method5')
-data.setCell(10, 2, 'packageOne_testng.ClassTwo')
-data.setCell(10, 3, 0);
-data.setCell(11, 0, 11)
-data.setCell(11, 1, 'method9')
-data.setCell(11, 2, 'packageOne_testng.ClassThree')
-data.setCell(11, 3, 0);
-data.setCell(12, 0, 12)
-data.setCell(12, 1, 'method3')
-data.setCell(12, 2, 'packageOne_testng.ClassOne')
-data.setCell(12, 3, 0);
-data.setCell(13, 0, 13)
-data.setCell(13, 1, 'method12')
-data.setCell(13, 2, 'packageTwo_testng.ClassFour')
-data.setCell(13, 3, 0);
-data.setCell(14, 0, 14)
-data.setCell(14, 1, 'method14')
-data.setCell(14, 2, 'packageTwo_testng.ClassFive')
-data.setCell(14, 3, 0);
-data.setCell(15, 0, 15)
-data.setCell(15, 1, 'method16')
-data.setCell(15, 2, 'packageTwo_testng.ClassSix')
-data.setCell(15, 3, 0);
-data.setCell(16, 0, 16)
-data.setCell(16, 1, 'method15')
-data.setCell(16, 2, 'packageTwo_testng.ClassFive')
-data.setCell(16, 3, 0);
-data.setCell(17, 0, 17)
-data.setCell(17, 1, 'method11')
-data.setCell(17, 2, 'packageTwo_testng.ClassFour')
-data.setCell(17, 3, 0);
-data.setCell(18, 0, 18)
-data.setCell(18, 1, 'method17')
-data.setCell(18, 2, 'packageTwo_testng.ClassSix')
-data.setCell(18, 3, 0);
-data.setCell(19, 0, 19)
-data.setCell(19, 1, 'method10')
-data.setCell(19, 2, 'packageTwo_testng.ClassFour')
-data.setCell(19, 3, 0);
+data.setCell(0, 1, 'testLoginUserWithCorrectCredentials')
+data.setCell(0, 2, 'testCases.LoginUserTest')
+data.setCell(0, 3, 32220);
 window.suiteTableData['MySuite']= { tableData: data, tableDiv: 'times-div-MySuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 57 seconds</span>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
               <div id="times-div-MySuite">
               </div> <!-- times-div-MySuite -->
             </div> <!-- times-div -->
@@ -609,120 +225,20 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">packageOne_testng.ClassOne</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">method1</span>
+              <div class="chronological-class-name">testCases.LoginUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">method2</span>
-                <span class="method-start">7 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">method3</span>
-                <span class="method-start">8 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">packageOne_testng.ClassThree</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">method7</span>
-                <span class="method-start">11 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">method8</span>
-                <span class="method-start">12 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">method9</span>
-                <span class="method-start">13 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">packageOne_testng.ClassTwo</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">method4</span>
-                <span class="method-start">14 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">method5</span>
-                <span class="method-start">15 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">method6</span>
-                <span class="method-start">16 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">packageTwo_testng.ClassFive</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">method13</span>
-                <span class="method-start">133 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">method14</span>
-                <span class="method-start">134 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">method15</span>
-                <span class="method-start">135 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">packageTwo_testng.ClassFour</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">method10</span>
-                <span class="method-start">136 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">method11</span>
-                <span class="method-start">137 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">method12</span>
-                <span class="method-start">138 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">packageTwo_testng.ClassSix</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">method16</span>
-                <span class="method-start">139 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">method18</span>
-                <span class="method-start">140 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">method17</span>
-                <span class="method-start">140 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.RegisterUserTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">146 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testRegisterUser</span>
-                <span class="method-start">1327 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLoginUserWithCorrectCredentials</span>
+                <span class="method-start">3091 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">30475 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">30701 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testRegisterUser</span>
-                <span class="method-start">31424 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">59971 ms</span>
+                <span class="method-start">35314 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
