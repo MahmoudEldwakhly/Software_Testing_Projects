@@ -15,23 +15,6 @@ This testing framework automatically performs user registration on the Automatio
 - Deleting the test account
 - Verifying successful account deletion
 
-## Project Structure
-src/
-├── main/java/
-│ ├── Frameworks/
-│ │ ├── SeleniumFrameWork.java # Core selenium functionality
-│ │ └── WebDriverManager.java # Browser management
-│ └── Main/Pages/
-│ ├── HomePage.java # Home page interactions
-│ ├── LoginPage.java # Login page interactions
-│ ├── SignupPage.java # Signup form interactions
-│ └── RegistrationPage.java # Registration success handling
-└── test/java/
-└── TestCases/
-└── RegisterUserTest.java # Main test case
-
-text
-
 ## Key Features
 
 ### Robust Framework
