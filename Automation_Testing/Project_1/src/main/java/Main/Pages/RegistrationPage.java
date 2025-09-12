@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 public class RegistrationPage {
     private SeleniumFrameWork framework;
     
-    // Locators
+    // Locators with data-qa attributes
     private By accountCreatedText = By.cssSelector("h2[data-qa='account-created']");
     private By continueButton = By.cssSelector("a[data-qa='continue-button']");
     private By accountDeletedText = By.cssSelector("h2[data-qa='account-deleted']");
@@ -17,8 +17,7 @@ public class RegistrationPage {
     
     public boolean isAccountCreatedVisible() {
         try {
-            // Add explicit wait and try multiple locators
-            framework.explicitWait(accountCreatedText, 10);
+            framework.explicitWait(accountCreatedText, 15);
             String text = framework.getText(accountCreatedText);
             return text.contains("ACCOUNT CREATED!") || text.contains("Account Created");
         } catch (Exception e) {
@@ -38,7 +37,7 @@ public class RegistrationPage {
     
     public boolean isAccountDeletedVisible() {
         try {
-            framework.explicitWait(accountDeletedText, 10);
+            framework.explicitWait(accountDeletedText, 15);
             String text = framework.getText(accountDeletedText);
             return text.contains("ACCOUNT DELETED!") || text.contains("Account Deleted");
         } catch (Exception e) {
@@ -49,12 +48,14 @@ public class RegistrationPage {
     
     public void clickContinue() {
         try {
+            framework.explicitWait(continueButton, 10);
             framework.click(continueButton);
         } catch (Exception e) {
             System.out.println("Continue button not found with primary locator, trying alternatives...");
             // Try alternative locators
             try {
                 By alternativeLocator = By.xpath("//a[contains(text(),'Continue')]");
+                framework.explicitWait(alternativeLocator, 5);
                 framework.click(alternativeLocator);
             } catch (Exception ex) {
                 System.out.println("Continue button not found with alternative locator either");

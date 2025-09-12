@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 public class LoginPage {
     private SeleniumFrameWork framework;
     
-    // Updated locators - more specific and reliable
+    // Locators with data-qa attributes
     private By signupName = By.cssSelector("input[data-qa='signup-name']");
     private By signupEmail = By.cssSelector("input[data-qa='signup-email']");
     private By signupButton = By.cssSelector("button[data-qa='signup-button']");
@@ -18,7 +18,6 @@ public class LoginPage {
     
     public boolean isNewUserSignupVisible() {
         try {
-            // Add explicit wait for the element to be visible
             framework.explicitWait(newUserSignupText, 10);
             String text = framework.getText(newUserSignupText);
             return text.contains("New User Signup!") || text.contains("Signup");
@@ -29,14 +28,17 @@ public class LoginPage {
     }
     
     public void enterSignupName(String name) {
+        framework.explicitWait(signupName, 10);
         framework.sendKeys(signupName, name);
     }
     
     public void enterSignupEmail(String email) {
+        framework.explicitWait(signupEmail, 10);
         framework.sendKeys(signupEmail, email);
     }
     
     public void clickSignup() {
+        framework.explicitWait(signupButton, 10);
         framework.click(signupButton);
     }
 }

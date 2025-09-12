@@ -20,7 +20,7 @@ public class RegisterUserTest {
     public void setUp() {
         framework = new SeleniumFrameWork();
         framework.initializeBrowser();
-        framework.implicitWait(15); // Increased wait time
+        framework.implicitWait(15);
         
         // Initialize page objects
         homePage = new HomePage(framework);
@@ -74,7 +74,7 @@ public class RegisterUserTest {
             System.out.println("Filling account information...");
             signupPage.selectTitle("Mr");
             signupPage.enterPassword("password123");
-            signupPage.selectDateOfBirth("10", "1", "1990"); // Using numeric month
+            signupPage.selectDateOfBirth("10", "1", "1990");
             
             // 10. Select checkbox 'Sign up for our newsletter!'
             signupPage.checkNewsletter();
@@ -99,22 +99,19 @@ public class RegisterUserTest {
             // 13. Click 'Create Account button'
             System.out.println("Creating account...");
             signupPage.clickCreateAccount();
+            
+            // Add longer wait for account creation
             try { Thread.sleep(5000); } catch (InterruptedException e) {}
-
-// 14. Verify that 'ACCOUNT CREATED!' is visible
-System.out.println("Verifying account creation...");
-boolean accountCreated = registrationPage.isAccountCreatedVisible();
-if (!accountCreated) {
-    System.out.println("Account creation verification failed, checking page content...");
-    // Take a screenshot or log page source for debugging
-    System.out.println("Current URL: " + framework.getCurrentURL());
-    System.out.println("Page title: " + framework.getPageTitle());
-}
-
-assert accountCreated : "ACCOUNT CREATED! is not visible";
+            
             // 14. Verify that 'ACCOUNT CREATED!' is visible
             System.out.println("Verifying account creation...");
-            assert registrationPage.isAccountCreatedVisible() : "ACCOUNT CREATED! is not visible";
+            boolean accountCreated = registrationPage.isAccountCreatedVisible();
+            if (!accountCreated) {
+                System.out.println("Account creation verification failed, checking page content...");
+                System.out.println("Current URL: " + framework.getCurrentURL());
+                System.out.println("Page title: " + framework.getPageTitle());
+            }
+            assert accountCreated : "ACCOUNT CREATED! is not visible";
             
             // 15. Click 'Continue' button
             registrationPage.clickContinue();

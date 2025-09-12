@@ -2,124 +2,124 @@
 <testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-12T03:43:15 EEST" name="MySuite" finished-at="2025-09-12T03:44:22 EEST" duration-ms="67167">
+  <suite started-at="2025-09-12T03:54:21 EEST" name="MySuite" finished-at="2025-09-12T03:55:21 EEST" duration-ms="60183">
     <groups>
     </groups>
-    <test started-at="2025-09-12T03:43:15 EEST" name="TestPackageOne" finished-at="2025-09-12T03:43:15 EEST" duration-ms="59">
+    <test started-at="2025-09-12T03:54:21 EEST" name="TestPackageOne" finished-at="2025-09-12T03:54:21 EEST" duration-ms="48">
       <class name="packageOne_testng.ClassOne">
-        <test-method signature="method1()[pri:0, instance:packageOne_testng.ClassOne@5c909414]" started-at="2025-09-12T03:43:15 EEST" name="method1" finished-at="2025-09-12T03:43:15 EEST" duration-ms="7" status="PASS">
+        <test-method signature="method1()[pri:0, instance:packageOne_testng.ClassOne@5c909414]" started-at="2025-09-12T03:54:21 EEST" name="method1" finished-at="2025-09-12T03:54:21 EEST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method1 -->
-        <test-method signature="method2()[pri:0, instance:packageOne_testng.ClassOne@5c909414]" started-at="2025-09-12T03:43:15 EEST" name="method2" finished-at="2025-09-12T03:43:15 EEST" duration-ms="1" status="PASS">
+        <test-method signature="method2()[pri:0, instance:packageOne_testng.ClassOne@5c909414]" started-at="2025-09-12T03:54:21 EEST" name="method2" finished-at="2025-09-12T03:54:21 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method2 -->
-        <test-method signature="method3()[pri:0, instance:packageOne_testng.ClassOne@5c909414]" started-at="2025-09-12T03:43:15 EEST" name="method3" finished-at="2025-09-12T03:43:15 EEST" duration-ms="0" status="PASS">
+        <test-method signature="method3()[pri:0, instance:packageOne_testng.ClassOne@5c909414]" started-at="2025-09-12T03:54:21 EEST" name="method3" finished-at="2025-09-12T03:54:21 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method3 -->
       </class> <!-- packageOne_testng.ClassOne -->
       <class name="packageOne_testng.ClassTwo">
-        <test-method signature="method4()[pri:0, instance:packageOne_testng.ClassTwo@4386f16]" started-at="2025-09-12T03:43:15 EEST" name="method4" finished-at="2025-09-12T03:43:15 EEST" duration-ms="1" status="PASS">
+        <test-method signature="method4()[pri:0, instance:packageOne_testng.ClassTwo@4386f16]" started-at="2025-09-12T03:54:21 EEST" name="method4" finished-at="2025-09-12T03:54:21 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method4 -->
-        <test-method signature="method5()[pri:0, instance:packageOne_testng.ClassTwo@4386f16]" started-at="2025-09-12T03:43:15 EEST" name="method5" finished-at="2025-09-12T03:43:15 EEST" duration-ms="1" status="PASS">
+        <test-method signature="method5()[pri:0, instance:packageOne_testng.ClassTwo@4386f16]" started-at="2025-09-12T03:54:21 EEST" name="method5" finished-at="2025-09-12T03:54:21 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method5 -->
-        <test-method signature="method6()[pri:0, instance:packageOne_testng.ClassTwo@4386f16]" started-at="2025-09-12T03:43:15 EEST" name="method6" finished-at="2025-09-12T03:43:15 EEST" duration-ms="1" status="PASS">
+        <test-method signature="method6()[pri:0, instance:packageOne_testng.ClassTwo@4386f16]" started-at="2025-09-12T03:54:21 EEST" name="method6" finished-at="2025-09-12T03:54:21 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method6 -->
       </class> <!-- packageOne_testng.ClassTwo -->
       <class name="packageOne_testng.ClassThree">
-        <test-method signature="method7()[pri:0, instance:packageOne_testng.ClassThree@2ea227af]" started-at="2025-09-12T03:43:15 EEST" name="method7" finished-at="2025-09-12T03:43:15 EEST" duration-ms="0" status="PASS">
+        <test-method signature="method7()[pri:0, instance:packageOne_testng.ClassThree@2ea227af]" started-at="2025-09-12T03:54:21 EEST" name="method7" finished-at="2025-09-12T03:54:21 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method7 -->
-        <test-method signature="method8()[pri:0, instance:packageOne_testng.ClassThree@2ea227af]" started-at="2025-09-12T03:43:15 EEST" name="method8" finished-at="2025-09-12T03:43:15 EEST" duration-ms="1" status="PASS">
+        <test-method signature="method8()[pri:0, instance:packageOne_testng.ClassThree@2ea227af]" started-at="2025-09-12T03:54:21 EEST" name="method8" finished-at="2025-09-12T03:54:21 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method8 -->
-        <test-method signature="method9()[pri:0, instance:packageOne_testng.ClassThree@2ea227af]" started-at="2025-09-12T03:43:15 EEST" name="method9" finished-at="2025-09-12T03:43:15 EEST" duration-ms="1" status="PASS">
+        <test-method signature="method9()[pri:0, instance:packageOne_testng.ClassThree@2ea227af]" started-at="2025-09-12T03:54:21 EEST" name="method9" finished-at="2025-09-12T03:54:21 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method9 -->
       </class> <!-- packageOne_testng.ClassThree -->
     </test> <!-- TestPackageOne -->
-    <test started-at="2025-09-12T03:43:15 EEST" name="TestPackageTwo" finished-at="2025-09-12T03:43:15 EEST" duration-ms="9">
+    <test started-at="2025-09-12T03:54:21 EEST" name="TestPackageTwo" finished-at="2025-09-12T03:54:21 EEST" duration-ms="9">
       <class name="packageTwo_testng.ClassSix">
-        <test-method signature="method16()[pri:0, instance:packageTwo_testng.ClassSix@481a996b]" started-at="2025-09-12T03:43:15 EEST" name="method16" finished-at="2025-09-12T03:43:15 EEST" duration-ms="0" status="PASS">
+        <test-method signature="method16()[pri:0, instance:packageTwo_testng.ClassSix@481a996b]" started-at="2025-09-12T03:54:21 EEST" name="method16" finished-at="2025-09-12T03:54:21 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method16 -->
-        <test-method signature="method17()[pri:0, instance:packageTwo_testng.ClassSix@481a996b]" started-at="2025-09-12T03:43:15 EEST" name="method17" finished-at="2025-09-12T03:43:15 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method17 -->
-        <test-method signature="method18()[pri:0, instance:packageTwo_testng.ClassSix@481a996b]" started-at="2025-09-12T03:43:15 EEST" name="method18" finished-at="2025-09-12T03:43:15 EEST" duration-ms="1" status="PASS">
+        <test-method signature="method18()[pri:0, instance:packageTwo_testng.ClassSix@481a996b]" started-at="2025-09-12T03:54:21 EEST" name="method18" finished-at="2025-09-12T03:54:21 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method18 -->
+        <test-method signature="method17()[pri:0, instance:packageTwo_testng.ClassSix@481a996b]" started-at="2025-09-12T03:54:21 EEST" name="method17" finished-at="2025-09-12T03:54:21 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method17 -->
       </class> <!-- packageTwo_testng.ClassSix -->
       <class name="packageTwo_testng.ClassFive">
-        <test-method signature="method13()[pri:0, instance:packageTwo_testng.ClassFive@1cbbffcd]" started-at="2025-09-12T03:43:15 EEST" name="method13" finished-at="2025-09-12T03:43:15 EEST" duration-ms="1" status="PASS">
+        <test-method signature="method13()[pri:0, instance:packageTwo_testng.ClassFive@1cbbffcd]" started-at="2025-09-12T03:54:21 EEST" name="method13" finished-at="2025-09-12T03:54:21 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method13 -->
-        <test-method signature="method14()[pri:0, instance:packageTwo_testng.ClassFive@1cbbffcd]" started-at="2025-09-12T03:43:15 EEST" name="method14" finished-at="2025-09-12T03:43:15 EEST" duration-ms="0" status="PASS">
+        <test-method signature="method14()[pri:0, instance:packageTwo_testng.ClassFive@1cbbffcd]" started-at="2025-09-12T03:54:21 EEST" name="method14" finished-at="2025-09-12T03:54:21 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method14 -->
-        <test-method signature="method15()[pri:0, instance:packageTwo_testng.ClassFive@1cbbffcd]" started-at="2025-09-12T03:43:15 EEST" name="method15" finished-at="2025-09-12T03:43:15 EEST" duration-ms="0" status="PASS">
+        <test-method signature="method15()[pri:0, instance:packageTwo_testng.ClassFive@1cbbffcd]" started-at="2025-09-12T03:54:21 EEST" name="method15" finished-at="2025-09-12T03:54:21 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method15 -->
       </class> <!-- packageTwo_testng.ClassFive -->
       <class name="packageTwo_testng.ClassFour">
-        <test-method signature="method10()[pri:0, instance:packageTwo_testng.ClassFour@27ce24aa]" started-at="2025-09-12T03:43:15 EEST" name="method10" finished-at="2025-09-12T03:43:15 EEST" duration-ms="0" status="PASS">
+        <test-method signature="method10()[pri:0, instance:packageTwo_testng.ClassFour@27ce24aa]" started-at="2025-09-12T03:54:21 EEST" name="method10" finished-at="2025-09-12T03:54:21 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method10 -->
-        <test-method signature="method11()[pri:0, instance:packageTwo_testng.ClassFour@27ce24aa]" started-at="2025-09-12T03:43:15 EEST" name="method11" finished-at="2025-09-12T03:43:15 EEST" duration-ms="0" status="PASS">
+        <test-method signature="method11()[pri:0, instance:packageTwo_testng.ClassFour@27ce24aa]" started-at="2025-09-12T03:54:21 EEST" name="method11" finished-at="2025-09-12T03:54:21 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method11 -->
-        <test-method signature="method12()[pri:0, instance:packageTwo_testng.ClassFour@27ce24aa]" started-at="2025-09-12T03:43:15 EEST" name="method12" finished-at="2025-09-12T03:43:15 EEST" duration-ms="0" status="PASS">
+        <test-method signature="method12()[pri:0, instance:packageTwo_testng.ClassFour@27ce24aa]" started-at="2025-09-12T03:54:21 EEST" name="method12" finished-at="2025-09-12T03:54:21 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method12 -->
       </class> <!-- packageTwo_testng.ClassFour -->
     </test> <!-- TestPackageTwo -->
-    <test started-at="2025-09-12T03:43:15 EEST" name="RegisterUserTest" finished-at="2025-09-12T03:43:53 EEST" duration-ms="38042">
+    <test started-at="2025-09-12T03:54:21 EEST" name="RegisterUserTest" finished-at="2025-09-12T03:54:52 EEST" duration-ms="30549">
       <class name="testCases.RegisterUserTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.RegisterUserTest@2f7298b]" started-at="2025-09-12T03:43:15 EEST" name="setUp" finished-at="2025-09-12T03:43:16 EEST" duration-ms="1216" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.RegisterUserTest@2f7298b]" started-at="2025-09-12T03:54:21 EEST" name="setUp" finished-at="2025-09-12T03:54:22 EEST" duration-ms="1180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testRegisterUser()[pri:0, instance:testCases.RegisterUserTest@2f7298b]" started-at="2025-09-12T03:43:16 EEST" name="testRegisterUser" finished-at="2025-09-12T03:43:53 EEST" duration-ms="36636" status="PASS">
+        <test-method signature="testRegisterUser()[pri:0, instance:testCases.RegisterUserTest@2f7298b]" started-at="2025-09-12T03:54:22 EEST" name="testRegisterUser" finished-at="2025-09-12T03:54:51 EEST" duration-ms="29148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegisterUser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RegisterUserTest@2f7298b]" started-at="2025-09-12T03:43:53 EEST" name="tearDown" finished-at="2025-09-12T03:43:53 EEST" duration-ms="188" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RegisterUserTest@2f7298b]" started-at="2025-09-12T03:54:51 EEST" name="tearDown" finished-at="2025-09-12T03:54:52 EEST" duration-ms="219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.RegisterUserTest -->
     </test> <!-- RegisterUserTest -->
-    <test started-at="2025-09-12T03:43:53 EEST" name="TestCases" finished-at="2025-09-12T03:44:22 EEST" duration-ms="29027">
+    <test started-at="2025-09-12T03:54:52 EEST" name="TestCases" finished-at="2025-09-12T03:55:21 EEST" duration-ms="29450">
       <class name="testCases.RegisterUserTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.RegisterUserTest@43195e57]" started-at="2025-09-12T03:43:53 EEST" name="setUp" finished-at="2025-09-12T03:43:54 EEST" duration-ms="738" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.RegisterUserTest@43195e57]" started-at="2025-09-12T03:54:52 EEST" name="setUp" finished-at="2025-09-12T03:54:52 EEST" duration-ms="723" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testRegisterUser()[pri:0, instance:testCases.RegisterUserTest@43195e57]" started-at="2025-09-12T03:43:54 EEST" name="testRegisterUser" finished-at="2025-09-12T03:44:22 EEST" duration-ms="28093" status="PASS">
+        <test-method signature="testRegisterUser()[pri:0, instance:testCases.RegisterUserTest@43195e57]" started-at="2025-09-12T03:54:52 EEST" name="testRegisterUser" finished-at="2025-09-12T03:55:21 EEST" duration-ms="28547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegisterUser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RegisterUserTest@43195e57]" started-at="2025-09-12T03:44:22 EEST" name="tearDown" finished-at="2025-09-12T03:44:22 EEST" duration-ms="185" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RegisterUserTest@43195e57]" started-at="2025-09-12T03:55:21 EEST" name="tearDown" finished-at="2025-09-12T03:55:21 EEST" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
