@@ -1,3 +1,4 @@
+TestCases\LoginUserIncorrectTest.class
 TestCases\LoginUserTest.class
 HelloTestNG.class
 packageOne_testng\ClassOne.class

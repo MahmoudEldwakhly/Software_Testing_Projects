@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-MySuite" class="navigator-link">
-              <span class="suite-name border-failed">MySuite</span>
+              <span class="suite-name border-passed">MySuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-MySuite" class="hide-methods failed suite-MySuite"> (hide)</a> <!-- hide-methods failed suite-MySuite -->
-                      <a href="#" panel-name="suite-MySuite" class="show-methods failed suite-MySuite"> (show)</a> <!-- show-methods failed suite-MySuite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MySuite" class="hide-methods passed suite-MySuite"> (hide)</a> <!-- hide-methods passed suite-MySuite -->
+                      <a href="#" panel-name="suite-MySuite" class="show-methods passed suite-MySuite"> (show)</a> <!-- show-methods passed suite-MySuite -->
                     </span>
-                    <div class="method-list-content failed suite-MySuite">
+                    <div class="method-list-content passed suite-MySuite">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MySuite" title="testCases.LoginUserTest" class="method navigator-link" hash-for-method="testLoginUserWithCorrectCredentials">testLoginUserWithCorrectCredentials</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="testCases.LoginUserIncorrectTest" class="method navigator-link" hash-for-method="testLoginUserWithIncorrectCredentials">testLoginUserWithIncorrectCredentials</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-MySuite -->
+                    </div> <!-- method-list-content passed suite-MySuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,26 +118,21 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-MySuite" class="panel MySuite">
-          <div class="suite-MySuite-class-failed">
+          <div class="suite-MySuite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCases.LoginUserTest</span>
+              <img src="passed.png"/>
+              <span class="class-name">testCases.LoginUserIncorrectTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testLoginUserWithCorrectCredentials">
-                  </a> <!-- testLoginUserWithCorrectCredentials -->
-                  <span class="method-name">testLoginUserWithCorrectCredentials</span>
-                  <div class="stack-trace">java.lang.AssertionError: Logged in as username is not visible
-	at testCases.LoginUserTest.testLoginUserWithCorrectCredentials(LoginUserTest.java:74)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
+                  <a name="testLoginUserWithIncorrectCredentials">
+                  </a> <!-- testLoginUserWithIncorrectCredentials -->
+                  <span class="method-name">testLoginUserWithIncorrectCredentials</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MySuite-class-failed -->
+          </div> <!-- suite-MySuite-class-passed -->
         </div> <!-- panel MySuite -->
         <div panel-name="test-xml-MySuite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -148,11 +143,11 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;MySuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;LoginUserTest&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LoginUserIncorrectTest&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.LoginUserTest&quot;/&gt;
+      &lt;class name=&quot;testCases.LoginUserIncorrectTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- LoginUserTest --&gt;
+  &lt;/test&gt; &lt;!-- LoginUserIncorrectTest --&gt;
 &lt;/suite&gt; &lt;!-- MySuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -164,7 +159,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">LoginUserTest (1 class)</span>
+                <span class="test-name">LoginUserIncorrectTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -192,14 +187,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testLoginUserWithCorrectCredentials')
-data.setCell(0, 2, 'testCases.LoginUserTest')
-data.setCell(0, 3, 32220);
+data.setCell(0, 1, 'testLoginUserWithIncorrectCredentials')
+data.setCell(0, 2, 'testCases.LoginUserIncorrectTest')
+data.setCell(0, 3, 8426);
 window.suiteTableData['MySuite']= { tableData: data, tableDiv: 'times-div-MySuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-MySuite">
               </div> <!-- times-div-MySuite -->
             </div> <!-- times-div -->
@@ -225,20 +220,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.LoginUserTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.LoginUserIncorrectTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testLoginUserWithCorrectCredentials</span>
-                <span class="method-start">3091 ms</span>
+                <span class="method-name">testLoginUserWithIncorrectCredentials</span>
+                <span class="method-start">5036 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">35314 ms</span>
+                <span class="method-start">13464 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

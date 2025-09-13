@@ -10,6 +10,7 @@ public class HomePage {
     private By signupLoginButton = By.cssSelector("a[href='/login']");
     private By loggedInAs = By.cssSelector("a:has(> i.fa-user)");
     private By deleteAccountButton = By.cssSelector("a[href='/delete_account']");
+    private By logoutButton = By.cssSelector("a[href='/logout']");
     
     public HomePage(SeleniumFrameWork framework) {
         this.framework = framework;
@@ -40,5 +41,11 @@ public class HomePage {
     
     public boolean isHomePageVisible() {
         return framework.getPageTitle().contains("Automation Exercise");
+    }
+
+    public void clickLogout() {
+        framework.explicitWait(logoutButton, 10);
+        framework.click(logoutButton);
+        System.out.println("Clicked Logout button");
     }
 }

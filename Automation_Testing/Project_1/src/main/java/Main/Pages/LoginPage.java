@@ -17,6 +17,9 @@ public class LoginPage {
     private By loginPassword = By.cssSelector("input[data-qa='login-password']");
     private By loginButton = By.cssSelector("button[data-qa='login-button']");
     private By loginAccountText = By.cssSelector("div.login-form h2");
+
+    // Error message locator
+    private By loginErrorMessage = By.xpath("//p[contains(text(),'Your email or password is incorrect!')]");
     
     public LoginPage(SeleniumFrameWork framework) {
         this.framework = framework;
@@ -72,5 +75,17 @@ public class LoginPage {
     public void clickLogin() {
         framework.explicitWait(loginButton, 10);
         framework.click(loginButton);
+    }
+
+    // Check if error message appears for incorrect login
+    public boolean isLoginErrorVisible() {
+        try {
+            framework.explicitWait(loginErrorMessage, 10);
+            String text = framework.getText(loginErrorMessage);
+            return text.contains("Your email or password is incorrect!");
+        } catch (Exception e) {
+            System.out.println("Login error message not found: " + e.getMessage());
+            return false;
+        }
     }
 }

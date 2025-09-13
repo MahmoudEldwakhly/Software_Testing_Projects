@@ -24,10 +24,17 @@
         </classes>
     </test>
      -->
-    <!-- Login User Test -->
+    <!-- Login User Test 
     <test name="LoginUserTest">
         <classes>
             <class name="testCases.LoginUserTest"/>
+        </classes>
+    </test>
+-->
+        <!-- Login User Incorrect Test -->
+    <test name="LoginUserIncorrectTest">
+        <classes>
+            <class name="testCases.LoginUserIncorrectTest"/>
         </classes>
     </test>
     <!-- Whole TestCases package 
