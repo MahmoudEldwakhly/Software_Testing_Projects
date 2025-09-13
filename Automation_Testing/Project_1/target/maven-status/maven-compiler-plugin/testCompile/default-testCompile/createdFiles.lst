@@ -1,5 +1,6 @@
 TestCases\LoginUserIncorrectTest.class
 TestCases\LoginUserTest.class
+TestCases\LogoutUserTest.class
 HelloTestNG.class
 packageOne_testng\ClassOne.class
 packageOne_testng\ClassThree.class
