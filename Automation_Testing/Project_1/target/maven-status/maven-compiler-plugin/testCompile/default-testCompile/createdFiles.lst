@@ -9,3 +9,4 @@ packageOne_testng\ClassTwo.class
 packageTwo_testng\ClassFour.class
 TestCases\RegisterUserTest.class
 packageTwo_testng\ClassFive.class
+TestCases\RegisterUserExistingEmailTest.class

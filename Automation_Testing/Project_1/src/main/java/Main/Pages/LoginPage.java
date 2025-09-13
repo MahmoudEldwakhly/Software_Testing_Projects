@@ -18,8 +18,9 @@ public class LoginPage {
     private By loginButton = By.cssSelector("button[data-qa='login-button']");
     private By loginAccountText = By.cssSelector("div.login-form h2");
 
-    // Error message locator
+    // Error messages
     private By loginErrorMessage = By.xpath("//p[contains(text(),'Your email or password is incorrect!')]");
+    private By signupEmailErrorMessage = By.xpath("//p[contains(text(),'Email Address already exist!')]");
     
     public LoginPage(SeleniumFrameWork framework) {
         this.framework = framework;
@@ -85,6 +86,18 @@ public class LoginPage {
             return text.contains("Your email or password is incorrect!");
         } catch (Exception e) {
             System.out.println("Login error message not found: " + e.getMessage());
+            return false;
+        }
+    }
+
+    // Check if error message appears for signup with existing email
+    public boolean isSignupEmailErrorVisible() {
+        try {
+            framework.explicitWait(signupEmailErrorMessage, 10);
+            String text = framework.getText(signupEmailErrorMessage);
+            return text.contains("Email Address already exist!");
+        } catch (Exception e) {
+            System.out.println("Signup email error message not found: " + e.getMessage());
             return false;
         }
     }
