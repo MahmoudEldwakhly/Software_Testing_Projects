@@ -73,10 +73,17 @@
         </classes>
     </test>
 -->
-           <!-- SearchProductTest -->
+           <!-- SearchProductTest
     <test name="SearchProductTest">
         <classes>
             <class name="testCases.SearchProductTest"/>
+        </classes>
+    </test>
+     -->
+               <!-- VerifySubscriptionInHomePageTest -->
+    <test name="VerifySubscriptionInHomePageTest">
+        <classes>
+            <class name="testCases.VerifySubscriptionInHomePageTest"/>
         </classes>
     </test>
     <!-- Whole TestCases package 

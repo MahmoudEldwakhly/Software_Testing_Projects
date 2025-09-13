@@ -1,3 +1,4 @@
+TestCases\VerifySubscriptionInHomePageTest.class
 TestCases\LoginUserTest.class
 TestCases\VerifyAllProductsAndDetailPageTest.class
 HelloTestNG.class

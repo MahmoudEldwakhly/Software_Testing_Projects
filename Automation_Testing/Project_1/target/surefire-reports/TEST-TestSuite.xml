@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="16.728" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.974" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="D:\Downloads\Apache NetBeans\jdk\bin"/>
-    <property name="sun.java.command" value="C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire279352285602014000\surefirebooter-20250914024130602_3.jar C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire279352285602014000 2025-09-14T02-41-30_494-jvmRun1 surefire-20250914024130602_1tmp surefire_0-20250914024130602_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire14420170349129612998\surefirebooter-20250914025334899_3.jar C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire14420170349129612998 2025-09-14T02-53-34_478-jvmRun1 surefire-20250914025334899_1tmp surefire_0-20250914025334899_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Courses &amp; Trainings\Software Testing Diploma\Projects\Ex1\target\test-classes;D:\Courses &amp; Trainings\Software Testing Diploma\Projects\Ex1\target\classes;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-java\4.34.0\selenium-java-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.34.0\selenium-chrome-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.34.0\selenium-chromium-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.34.0\selenium-devtools-v136-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.34.0\selenium-devtools-v137-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.34.0\selenium-devtools-v138-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.34.0\selenium-edge-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.34.0\selenium-firefox-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.34.0\selenium-ie-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.34.0\selenium-safari-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire279352285602014000\surefirebooter-20250914024130602_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire14420170349129612998\surefirebooter-20250914025334899_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1+9"/>
@@ -61,28 +61,24 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="testSearchProduct" classname="testCases.SearchProductTest" time="14.987">
+  <testcase name="testVerifySubscriptionInHomePage" classname="testCases.VerifySubscriptionInHomePageTest" time="6.5">
     <system-out><![CDATA[Browser Initialized.
 Set Implicit Wait to 15 seconds.
 Navigated to URL: http://automationexercise.com
 Page title is 'Automation Exercise'
-Explicit wait for presence of By.cssSelector: a[href='/products']
-Clicked element By.cssSelector: a[href='/products']
-Clicked Products button
-Explicit wait for presence of By.xpath: //h2[contains(text(),'All Products')]
-Got text from element By.xpath: //h2[contains(text(),'All Products')]: ALL PRODUCTS
-Explicit wait for presence of By.id: search_product
-Sent keys to element By.id: search_product
-Clicked element By.id: submit_search
-Searched for product: Tshirt
-Explicit wait for presence of By.xpath: //h2[contains(text(),'Searched Products')]
-Got text from element By.xpath: //h2[contains(text(),'Searched Products')]: SEARCHED PRODUCTS
-Explicit wait for presence of By.cssSelector: .features_items .product-image-wrapper
+Scrolled to element By.xpath: //h2[contains(text(),'Subscription')] using Actions.scrollToElement().
+Scrolled to Subscription section
+Explicit wait for presence of By.xpath: //h2[contains(text(),'Subscription')]
+Got text from element By.xpath: //h2[contains(text(),'Subscription')]: SUBSCRIPTION
+Sent keys to element By.id: susbscribe_email
+Clicked element By.id: subscribe
+Explicit wait for presence of By.xpath: //div[contains(text(),'You have been successfully subscribed!')]
+Got text from element By.xpath: //div[contains(text(),'You have been successfully subscribed!')]: You have been successfully subscribed!
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Sep 14, 2025 2:41:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Sep 14, 2025 2:53:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
 ]]></system-err>
   </testcase>

@@ -14,6 +14,12 @@ public class HomePage {
     private By testCasesButton = By.cssSelector("a[href='/test_cases']");
     private By productsButton = By.cssSelector("a[href='/products']");
     
+    // Subscription section
+    private By subscriptionText = By.xpath("//h2[contains(text(),'Subscription')]");
+    private By subscriptionInput = By.id("susbscribe_email");
+    private By subscriptionButton = By.id("subscribe");
+    private By successMessage = By.xpath("//div[contains(text(),'You have been successfully subscribed!')]");
+
     public HomePage(SeleniumFrameWork framework) {
         this.framework = framework;
     }
@@ -61,5 +67,37 @@ public class HomePage {
         framework.explicitWait(productsButton, 10);
         framework.click(productsButton);
         System.out.println("Clicked Products button");
+    }
+
+    public void scrollToSubscription() {
+        framework.scrollToElement(subscriptionText);
+        System.out.println("Scrolled to Subscription section");
+    }
+
+    public boolean isSubscriptionTextVisible() {
+        try {
+            framework.explicitWait(subscriptionText, 10);
+            return framework.getText(subscriptionText).toLowerCase().contains("subscription");
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+    public void enterSubscriptionEmail(String email) {
+        framework.sendKeys(subscriptionInput, email);
+    }
+
+    public void clickSubscribeButton() {
+        framework.click(subscriptionButton);
+    }
+
+    public boolean isSubscriptionSuccessMessageVisible() {
+        try {
+            framework.explicitWait(successMessage, 10);
+            String text = framework.getText(successMessage);
+            return text.contains("You have been successfully subscribed!");
+        } catch (Exception e) {
+            return false;
+        }
     }
 }
