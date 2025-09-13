@@ -1,5 +1,6 @@
 Main\Pages\HomePage.class
 Frameworks\WebDriverManager.class
+Main\Pages\ContactUsPage.class
 input.class
 Main\Pages\LoginPage.class
 Main\Pages\SignupPage.class

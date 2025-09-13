@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-14T01:09:45 EEST" name="MySuite" finished-at="2025-09-14T01:10:31 EEST" duration-ms="45787">
+  <suite started-at="2025-09-14T01:41:10 EEST" name="MySuite" finished-at="2025-09-14T01:41:23 EEST" duration-ms="12437">
     <groups>
     </groups>
-    <test started-at="2025-09-14T01:09:45 EEST" name="RegisterUserExistingEmailTest" finished-at="2025-09-14T01:10:31 EEST" duration-ms="45787">
-      <class name="testCases.RegisterUserExistingEmailTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.RegisterUserExistingEmailTest@12e61fe6]" started-at="2025-09-14T01:09:45 EEST" name="setUp" finished-at="2025-09-14T01:09:50 EEST" duration-ms="4444" status="PASS">
+    <test started-at="2025-09-14T01:41:10 EEST" name="ContactUsTest" finished-at="2025-09-14T01:41:23 EEST" duration-ms="12437">
+      <class name="testCases.ContactUsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.ContactUsTest@12e61fe6]" started-at="2025-09-14T01:41:10 EEST" name="setUp" finished-at="2025-09-14T01:41:11 EEST" duration-ms="1105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testRegisterUserWithExistingEmail()[pri:0, instance:testCases.RegisterUserExistingEmailTest@12e61fe6]" started-at="2025-09-14T01:09:50 EEST" name="testRegisterUserWithExistingEmail" finished-at="2025-09-14T01:10:31 EEST" duration-ms="41120" status="PASS">
+        <test-method signature="testContactUsForm()[pri:0, instance:testCases.ContactUsTest@12e61fe6]" started-at="2025-09-14T01:41:11 EEST" name="testContactUsForm" finished-at="2025-09-14T01:41:22 EEST" duration-ms="11141" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testRegisterUserWithExistingEmail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RegisterUserExistingEmailTest@12e61fe6]" started-at="2025-09-14T01:10:31 EEST" name="tearDown" finished-at="2025-09-14T01:10:31 EEST" duration-ms="190" status="PASS">
+        </test-method> <!-- testContactUsForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ContactUsTest@12e61fe6]" started-at="2025-09-14T01:41:22 EEST" name="tearDown" finished-at="2025-09-14T01:41:23 EEST" duration-ms="158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.RegisterUserExistingEmailTest -->
-    </test> <!-- RegisterUserExistingEmailTest -->
+      </class> <!-- testCases.ContactUsTest -->
+    </test> <!-- ContactUsTest -->
   </suite> <!-- MySuite -->
 </testng-results>

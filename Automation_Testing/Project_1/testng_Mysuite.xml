@@ -45,10 +45,17 @@
         </classes>
     </test>
    --> 
-                <!-- Login User Incorrect Test -->
+                <!-- Login User Incorrect Test 
     <test name="RegisterUserExistingEmailTest">
         <classes>
             <class name="testCases.RegisterUserExistingEmailTest"/>
+        </classes>
+    </test>
+    -->
+                    <!-- Login User Incorrect Test -->
+    <test name="ContactUsTest">
+        <classes>
+            <class name="testCases.ContactUsTest"/>
         </classes>
     </test>
     <!-- Whole TestCases package 
