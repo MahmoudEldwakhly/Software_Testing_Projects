@@ -19,6 +19,12 @@ public class ProductsPage {
     private By productCondition = By.xpath("//b[contains(text(),'Condition:')]");
     private By productBrand = By.xpath("//b[contains(text(),'Brand:')]");
 
+    // Search locators
+    private By searchInput = By.id("search_product");
+    private By searchButton = By.id("submit_search");
+    private By searchedProductsHeader = By.xpath("//h2[contains(text(),'Searched Products')]");
+    private By searchedProductsList = By.cssSelector(".features_items .product-image-wrapper");
+
     public ProductsPage(SeleniumFrameWork framework) {
         this.framework = framework;
     }
@@ -69,6 +75,31 @@ public class ProductsPage {
             framework.explicitWait(productAvailability, 10);
             framework.explicitWait(productCondition, 10);
             framework.explicitWait(productBrand, 10);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+    public void searchProduct(String productName) {
+        framework.explicitWait(searchInput, 10);
+        framework.sendKeys(searchInput, productName);
+        framework.click(searchButton);
+        System.out.println("Searched for product: " + productName);
+    }
+
+    public boolean isSearchedProductsHeaderVisible() {
+        try {
+            framework.explicitWait(searchedProductsHeader, 10);
+            return framework.getText(searchedProductsHeader).toLowerCase().contains("searched products");
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+    public boolean areSearchedProductsVisible() {
+        try {
+            framework.explicitWait(searchedProductsList, 10);
             return true;
         } catch (Exception e) {
             return false;

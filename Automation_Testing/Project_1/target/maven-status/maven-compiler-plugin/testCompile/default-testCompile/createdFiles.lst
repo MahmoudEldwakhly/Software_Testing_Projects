@@ -10,6 +10,7 @@ TestCases\LoginUserIncorrectTest.class
 TestCases\ContactUsTest.class
 TestCases\LogoutUserTest.class
 packageOne_testng\ClassOne.class
+TestCases\SearchProductTest.class
 TestCases\VerifyTestCasesPageTest.class
 TestCases\RegisterUserTest.class
 TestCases\RegisterUserExistingEmailTest.class
