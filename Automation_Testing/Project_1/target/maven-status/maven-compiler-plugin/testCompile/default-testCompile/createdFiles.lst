@@ -1,4 +1,5 @@
 TestCases\LoginUserTest.class
+TestCases\VerifyAllProductsAndDetailPageTest.class
 HelloTestNG.class
 packageOne_testng\ClassThree.class
 packageTwo_testng\ClassSix.class
@@ -9,5 +10,6 @@ TestCases\LoginUserIncorrectTest.class
 TestCases\ContactUsTest.class
 TestCases\LogoutUserTest.class
 packageOne_testng\ClassOne.class
+TestCases\VerifyTestCasesPageTest.class
 TestCases\RegisterUserTest.class
 TestCases\RegisterUserExistingEmailTest.class

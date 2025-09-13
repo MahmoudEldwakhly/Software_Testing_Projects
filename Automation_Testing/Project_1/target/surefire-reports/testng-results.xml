@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-14T01:41:10 EEST" name="MySuite" finished-at="2025-09-14T01:41:23 EEST" duration-ms="12437">
+  <suite started-at="2025-09-14T02:02:29 EEST" name="MySuite" finished-at="2025-09-14T02:02:46 EEST" duration-ms="17105">
     <groups>
     </groups>
-    <test started-at="2025-09-14T01:41:10 EEST" name="ContactUsTest" finished-at="2025-09-14T01:41:23 EEST" duration-ms="12437">
-      <class name="testCases.ContactUsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.ContactUsTest@12e61fe6]" started-at="2025-09-14T01:41:10 EEST" name="setUp" finished-at="2025-09-14T01:41:11 EEST" duration-ms="1105" status="PASS">
+    <test started-at="2025-09-14T02:02:29 EEST" name="VerifyAllProductsAndDetailPageTest" finished-at="2025-09-14T02:02:46 EEST" duration-ms="17105">
+      <class name="testCases.VerifyAllProductsAndDetailPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.VerifyAllProductsAndDetailPageTest@12e61fe6]" started-at="2025-09-14T02:02:29 EEST" name="setUp" finished-at="2025-09-14T02:02:30 EEST" duration-ms="1141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testContactUsForm()[pri:0, instance:testCases.ContactUsTest@12e61fe6]" started-at="2025-09-14T01:41:11 EEST" name="testContactUsForm" finished-at="2025-09-14T01:41:22 EEST" duration-ms="11141" status="PASS">
+        <test-method signature="testVerifyAllProductsAndDetailPage()[pri:0, instance:testCases.VerifyAllProductsAndDetailPageTest@12e61fe6]" started-at="2025-09-14T02:02:30 EEST" name="testVerifyAllProductsAndDetailPage" finished-at="2025-09-14T02:02:46 EEST" duration-ms="15746" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testContactUsForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ContactUsTest@12e61fe6]" started-at="2025-09-14T01:41:22 EEST" name="tearDown" finished-at="2025-09-14T01:41:23 EEST" duration-ms="158" status="PASS">
+        </test-method> <!-- testVerifyAllProductsAndDetailPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.VerifyAllProductsAndDetailPageTest@12e61fe6]" started-at="2025-09-14T02:02:46 EEST" name="tearDown" finished-at="2025-09-14T02:02:46 EEST" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.ContactUsTest -->
-    </test> <!-- ContactUsTest -->
+      </class> <!-- testCases.VerifyAllProductsAndDetailPageTest -->
+    </test> <!-- VerifyAllProductsAndDetailPageTest -->
   </suite> <!-- MySuite -->
 </testng-results>

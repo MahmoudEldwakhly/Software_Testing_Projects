@@ -52,10 +52,24 @@
         </classes>
     </test>
     -->
-                    <!-- Login User Incorrect Test -->
+                    <!-- ContactUsTest 
     <test name="ContactUsTest">
         <classes>
             <class name="testCases.ContactUsTest"/>
+        </classes>
+    </test>
+    -->
+                        <!-- VerifyTestCasesPageTest 
+    <test name="VerifyTestCasesPageTest">
+        <classes>
+            <class name="testCases.VerifyTestCasesPageTest"/>
+        </classes>
+    </test>
+    -->
+                            <!-- VerifyAllProductsAndDetailPageTest -->
+    <test name="VerifyAllProductsAndDetailPageTest">
+        <classes>
+            <class name="testCases.VerifyAllProductsAndDetailPageTest"/>
         </classes>
     </test>
     <!-- Whole TestCases package 

@@ -6,11 +6,13 @@ import org.openqa.selenium.By;
 public class HomePage {
     private SeleniumFrameWork framework;
     
-    // Locators with data-qa attributes
+    // Locators
     private By signupLoginButton = By.cssSelector("a[href='/login']");
     private By loggedInAs = By.cssSelector("a:has(> i.fa-user)");
     private By deleteAccountButton = By.cssSelector("a[href='/delete_account']");
     private By logoutButton = By.cssSelector("a[href='/logout']");
+    private By testCasesButton = By.cssSelector("a[href='/test_cases']");
+    private By productsButton = By.cssSelector("a[href='/products']");
     
     public HomePage(SeleniumFrameWork framework) {
         this.framework = framework;
@@ -47,5 +49,17 @@ public class HomePage {
         framework.explicitWait(logoutButton, 10);
         framework.click(logoutButton);
         System.out.println("Clicked Logout button");
+    }
+
+    public void clickTestCases() {
+        framework.explicitWait(testCasesButton, 10);
+        framework.click(testCasesButton);
+        System.out.println("Clicked Test Cases button");
+    }
+
+    public void clickProducts() {
+        framework.explicitWait(productsButton, 10);
+        framework.click(productsButton);
+        System.out.println("Clicked Products button");
     }
 }
