@@ -153,10 +153,17 @@
         </classes>
     </test>
    --> 
-                                             <!--  SearchProductsVerifyCartAfterLoginTest  -->  
+                                             <!--  SearchProductsVerifyCartAfterLoginTest  
     <test name=" SearchProductsVerifyCartAfterLoginTest">
         <classes>
             <class name="testCases.SearchProductsVerifyCartAfterLoginTest"/>
+        </classes>
+    </test>
+    -->  
+  <!--  AddReviewOnProductTest  -->  
+    <test name=" AddReviewOnProductTest">
+        <classes>
+            <class name="testCases.AddReviewOnProductTest"/>
         </classes>
     </test>
   

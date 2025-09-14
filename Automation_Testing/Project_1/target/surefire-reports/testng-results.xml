@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-14T19:36:14 EEST" name="MySuite" finished-at="2025-09-14T19:38:17 EEST" duration-ms="123318">
+  <suite started-at="2025-09-14T20:29:34 EEST" name="MySuite" finished-at="2025-09-14T20:29:57 EEST" duration-ms="23006">
     <groups>
     </groups>
-    <test started-at="2025-09-14T19:36:14 EEST" name=" SearchProductsVerifyCartAfterLoginTest" finished-at="2025-09-14T19:38:17 EEST" duration-ms="123318">
-      <class name="testCases.SearchProductsVerifyCartAfterLoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.SearchProductsVerifyCartAfterLoginTest@12e61fe6]" started-at="2025-09-14T19:36:14 EEST" name="setUp" finished-at="2025-09-14T19:36:15 EEST" duration-ms="1164" status="PASS">
+    <test started-at="2025-09-14T20:29:34 EEST" name=" AddReviewOnProductTest" finished-at="2025-09-14T20:29:57 EEST" duration-ms="23006">
+      <class name="testCases.AddReviewOnProductTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.AddReviewOnProductTest@12e61fe6]" started-at="2025-09-14T20:29:34 EEST" name="setUp" finished-at="2025-09-14T20:29:35 EEST" duration-ms="1122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSearchProductsAndVerifyCartAfterLogin()[pri:0, instance:testCases.SearchProductsVerifyCartAfterLoginTest@12e61fe6]" started-at="2025-09-14T19:36:15 EEST" name="testSearchProductsAndVerifyCartAfterLogin" finished-at="2025-09-14T19:38:17 EEST" duration-ms="121921" status="PASS">
+        <test-method signature="testAddReviewOnProduct()[pri:0, instance:testCases.AddReviewOnProductTest@12e61fe6]" started-at="2025-09-14T20:29:35 EEST" name="testAddReviewOnProduct" finished-at="2025-09-14T20:29:57 EEST" duration-ms="21674" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSearchProductsAndVerifyCartAfterLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.SearchProductsVerifyCartAfterLoginTest@12e61fe6]" started-at="2025-09-14T19:38:17 EEST" name="tearDown" finished-at="2025-09-14T19:38:17 EEST" duration-ms="194" status="PASS">
+        </test-method> <!-- testAddReviewOnProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddReviewOnProductTest@12e61fe6]" started-at="2025-09-14T20:29:57 EEST" name="tearDown" finished-at="2025-09-14T20:29:57 EEST" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.SearchProductsVerifyCartAfterLoginTest -->
-    </test> <!--  SearchProductsVerifyCartAfterLoginTest -->
+      </class> <!-- testCases.AddReviewOnProductTest -->
+    </test> <!--  AddReviewOnProductTest -->
   </suite> <!-- MySuite -->
 </testng-results>
