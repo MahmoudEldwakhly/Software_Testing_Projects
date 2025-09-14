@@ -191,10 +191,18 @@
     </test>
  -->
     
-              <!--  VerifyScrollUpWithArrowTest  -->  
+              <!--  VerifyScrollUpWithArrowTest    
     <test name=" VerifyScrollUpWithArrowTest">
         <classes>
             <class name="testCases.VerifyScrollUpWithArrowTest"/>
+        </classes>
+    </test>
+    -->
+        
+              <!--  VerifyScrollUpWithoutArrowTest  -->  
+    <test name=" VerifyScrollUpWithoutArrowTest">
+        <classes>
+            <class name="testCases.VerifyScrollUpWithoutArrowTest"/>
         </classes>
     </test>
   

@@ -1,6 +1,7 @@
 TestCases\VerifySubscriptionInHomePageTest.class
 TestCases\VerifyAllProductsAndDetailPageTest.class
 HelloTestNG.class
+TestCases\VerifyScrollUpWithoutArrowTest.class
 packageTwo_testng\ClassSix.class
 packageOne_testng\ClassTwo.class
 TestCases\VerifyScrollUpWithArrowTest.class
