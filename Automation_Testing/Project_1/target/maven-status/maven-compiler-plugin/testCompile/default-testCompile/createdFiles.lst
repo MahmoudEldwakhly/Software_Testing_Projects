@@ -18,6 +18,7 @@ TestCases\PlaceOrderRegisterWhileCheckoutTest.class
 TestCases\PlaceOrderRegisterBeforeCheckoutTest.class
 TestCases\ViewCategoryProductsTest.class
 packageTwo_testng\ClassFive.class
+TestCases\AddToCartFromRecommendedItemsTest.class
 packageOne_testng\ClassOne.class
 TestCases\VerifySubscriptionInCartPageTest.class
 TestCases\SearchProductTest.class

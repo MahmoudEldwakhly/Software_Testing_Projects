@@ -160,12 +160,20 @@
         </classes>
     </test>
     -->  
-  <!--  AddReviewOnProductTest  -->  
+  <!--  AddReviewOnProductTest  
     <test name=" AddReviewOnProductTest">
         <classes>
             <class name="testCases.AddReviewOnProductTest"/>
         </classes>
     </test>
+  -->  
+      <!--  AddToCartFromRecommendedItemsTest  -->  
+    <test name=" AddToCartFromRecommendedItemsTest">
+        <classes>
+            <class name="testCases.AddToCartFromRecommendedItemsTest"/>
+        </classes>
+    </test>
+  
   
    
     <!-- Whole TestCases package
