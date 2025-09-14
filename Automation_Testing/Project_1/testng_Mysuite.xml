@@ -131,10 +131,18 @@
     </test>
 -->
     
-                                  <!--  RemoveProductsFromCartTest  -->
+                                  <!--  RemoveProductsFromCartTest 
     <test name=" RemoveProductsFromCartTest">
         <classes>
             <class name="testCases.RemoveProductsFromCartTest"/>
+        </classes>
+    </test>
+ -->
+    
+                                      <!--  ViewCategoryProductsTest  -->
+    <test name=" ViewCategoryProductsTest">
+        <classes>
+            <class name="testCases.ViewCategoryProductsTest"/>
         </classes>
     </test>
     <!-- Whole TestCases package

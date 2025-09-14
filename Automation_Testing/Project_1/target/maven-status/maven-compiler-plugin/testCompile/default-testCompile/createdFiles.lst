@@ -14,6 +14,7 @@ TestCases\LoginUserTest.class
 packageOne_testng\ClassThree.class
 TestCases\PlaceOrderRegisterWhileCheckoutTest.class
 TestCases\PlaceOrderRegisterBeforeCheckoutTest.class
+TestCases\ViewCategoryProductsTest.class
 packageTwo_testng\ClassFive.class
 packageOne_testng\ClassOne.class
 TestCases\VerifySubscriptionInCartPageTest.class

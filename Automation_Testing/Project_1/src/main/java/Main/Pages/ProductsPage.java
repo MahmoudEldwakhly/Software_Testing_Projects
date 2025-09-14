@@ -32,6 +32,12 @@ public class ProductsPage {
     private By productCondition = By.xpath("//b[contains(text(),'Condition')]");
     private By productBrand = By.xpath("//b[contains(text(),'Brand')]");
 
+    // Category sidebar locators (added)
+    private By leftSidebarContainer = By.cssSelector(".left-sidebar .panel-group");
+    private By womenToggle = By.cssSelector("a[href='#Women']");
+    private By menToggle = By.cssSelector("a[href='#Men']");
+    private By categoryHeader = By.cssSelector(".features_items h2.title.text-center");
+
     public ProductsPage(SeleniumFrameWork framework) {
         this.framework = framework;
     }
@@ -61,7 +67,6 @@ public class ProductsPage {
     public void clickFirstProductView() {
         try {
             framework.explicitWait(firstProductView, 10);
-            // Use JS click to avoid ad overlays blocking
             framework.clickWithJS(firstProductView);
         } catch (Exception e) {
             System.out.println("Failed to click first product view: " + e.getMessage());
@@ -87,7 +92,7 @@ public class ProductsPage {
         }
     }
 
-    // Verify searched products are visible (Option 2 - no getDriver)
+    // Verify searched products are visible (no direct driver usage)
     public boolean areSearchedProductsVisible() {
         try {
             framework.explicitWait(searchedProducts, 10);
@@ -145,5 +150,72 @@ public class ProductsPage {
         } catch (Exception e) {
             return false;
         }
+    }
+
+    // Sidebar visibility check (added)
+    public boolean isCategoriesSidebarVisible() {
+        try {
+            framework.explicitWait(leftSidebarContainer, 10);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+    // Expand Women category (added)
+    public void expandWomenCategory() {
+        framework.scrollToElement(womenToggle);
+        framework.explicitWait(womenToggle, 10);
+        try {
+            framework.click(womenToggle);
+        } catch (Exception e) {
+            framework.clickWithJS(womenToggle);
+        }
+    }
+
+    // Click a subcategory under Women (added)
+    public void clickWomenSubcategory(String subcategoryText) {
+        By sub = By.xpath("//div[@id='Women']//a[contains(translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'"
+                + subcategoryText.toUpperCase() + "')]");
+        framework.explicitWait(sub, 10);
+        try {
+            framework.click(sub);
+        } catch (Exception e) {
+            framework.clickWithJS(sub);
+        }
+    }
+
+    // Expand Men category (added)
+    public void expandMenCategory() {
+        framework.scrollToElement(menToggle);
+        framework.explicitWait(menToggle, 10);
+        try {
+            framework.click(menToggle);
+        } catch (Exception e) {
+            framework.clickWithJS(menToggle);
+        }
+    }
+
+    // Click a subcategory under Men (added)
+    public void clickMenSubcategory(String subcategoryText) {
+        By sub = By.xpath("//div[@id='Men']//a[contains(translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'"
+                + subcategoryText.toUpperCase() + "')]");
+        framework.explicitWait(sub, 10);
+        try {
+            framework.click(sub);
+        } catch (Exception e) {
+            framework.clickWithJS(sub);
+        }
+    }
+
+    // Verify category header text like "WOMEN - TOPS PRODUCTS" (added)
+    public String getCategoryHeaderUpper() {
+        framework.explicitWait(categoryHeader, 10);
+        String txt = framework.getText(categoryHeader);
+        return txt == null ? "" : txt.trim().toUpperCase();
+    }
+
+    public boolean isOnCategoryPageWithHeader(String expectedUpper) {
+        return getCategoryHeaderUpper().contains(expectedUpper.toUpperCase());
     }
 }
