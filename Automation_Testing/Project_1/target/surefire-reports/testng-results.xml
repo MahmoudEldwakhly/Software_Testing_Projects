@@ -2,24 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-14T22:01:57 EEST" name="MySuite" finished-at="2025-09-14T22:02:43 EEST" duration-ms="45390">
+  <suite started-at="2025-09-14T22:23:29 EEST" name="MySuite" finished-at="2025-09-14T22:23:41 EEST" duration-ms="11645">
     <groups>
     </groups>
-    <test started-at="2025-09-14T22:01:57 EEST" name=" DownloadInvoiceAfterPurchaseTest" finished-at="2025-09-14T22:02:43 EEST" duration-ms="45390">
-      <class name="testCases.DownloadInvoiceAfterPurchaseTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.DownloadInvoiceAfterPurchaseTest@7ee955a8]" started-at="2025-09-14T22:01:57 EEST" name="setUp" finished-at="2025-09-14T22:01:59 EEST" duration-ms="1155" status="PASS">
+    <test started-at="2025-09-14T22:23:29 EEST" name=" VerifyScrollUpWithArrowTest" finished-at="2025-09-14T22:23:41 EEST" duration-ms="11645">
+      <class name="testCases.VerifyScrollUpWithArrowTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.VerifyScrollUpWithArrowTest@363ee3a2]" started-at="2025-09-14T22:23:29 EEST" name="setUp" finished-at="2025-09-14T22:23:30 EEST" duration-ms="1091" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testDownloadInvoiceAfterPurchase()[pri:0, instance:testCases.DownloadInvoiceAfterPurchaseTest@7ee955a8]" started-at="2025-09-14T22:01:59 EEST" name="testDownloadInvoiceAfterPurchase" finished-at="2025-09-14T22:02:43 EEST" duration-ms="43991" status="PASS">
+        <test-method signature="testVerifyScrollUpUsingArrowAndScrollDown()[pri:0, instance:testCases.VerifyScrollUpWithArrowTest@363ee3a2]" started-at="2025-09-14T22:23:30 EEST" name="testVerifyScrollUpUsingArrowAndScrollDown" finished-at="2025-09-14T22:23:41 EEST" duration-ms="10521" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDownloadInvoiceAfterPurchase -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.DownloadInvoiceAfterPurchaseTest@7ee955a8]" started-at="2025-09-14T22:02:43 EEST" name="tearDown" finished-at="2025-09-14T22:02:43 EEST" duration-ms="218" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.DownloadInvoiceAfterPurchaseTest -->
-    </test> <!--  DownloadInvoiceAfterPurchaseTest -->
+        </test-method> <!-- testVerifyScrollUpUsingArrowAndScrollDown -->
+      </class> <!-- testCases.VerifyScrollUpWithArrowTest -->
+    </test> <!--  VerifyScrollUpWithArrowTest -->
   </suite> <!-- MySuite -->
 </testng-results>

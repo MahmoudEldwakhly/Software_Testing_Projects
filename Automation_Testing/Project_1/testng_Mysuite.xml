@@ -183,10 +183,18 @@
     </test>
  -->
     
-            <!--  DownloadInvoiceAfterPurchaseTest  -->  
+            <!--  DownloadInvoiceAfterPurchaseTest   
     <test name=" DownloadInvoiceAfterPurchaseTest">
         <classes>
             <class name="testCases.DownloadInvoiceAfterPurchaseTest"/>
+        </classes>
+    </test>
+ -->
+    
+              <!--  VerifyScrollUpWithArrowTest  -->  
+    <test name=" VerifyScrollUpWithArrowTest">
+        <classes>
+            <class name="testCases.VerifyScrollUpWithArrowTest"/>
         </classes>
     </test>
   

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="45.749" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="12.031" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="D:\Downloads\Apache NetBeans\jdk\bin"/>
-    <property name="sun.java.command" value="C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire8331072306652875401\surefirebooter-20250914220157279_3.jar C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire8331072306652875401 2025-09-14T22-01-57_168-jvmRun1 surefire-20250914220157279_1tmp surefire_0-20250914220157279_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire5344403515731419531\surefirebooter-20250914222328939_3.jar C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire5344403515731419531 2025-09-14T22-23-28_834-jvmRun1 surefire-20250914222328939_1tmp surefire_0-20250914222328939_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Courses &amp; Trainings\Software Testing Diploma\Projects\Ex1\target\test-classes;D:\Courses &amp; Trainings\Software Testing Diploma\Projects\Ex1\target\classes;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-java\4.34.0\selenium-java-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.34.0\selenium-chrome-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.34.0\selenium-chromium-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.34.0\selenium-devtools-v136-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.34.0\selenium-devtools-v137-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.34.0\selenium-devtools-v138-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.34.0\selenium-edge-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.34.0\selenium-firefox-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.34.0\selenium-ie-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.34.0\selenium-safari-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire8331072306652875401\surefirebooter-20250914220157279_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire5344403515731419531\surefirebooter-20250914222328939_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1+9"/>
@@ -61,112 +61,206 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="testDownloadInvoiceAfterPurchase" classname="testCases.DownloadInvoiceAfterPurchaseTest" time="43.991">
+  <testcase name="testVerifyScrollUpUsingArrowAndScrollDown" classname="testCases.VerifyScrollUpWithArrowTest" time="10.524">
     <system-out><![CDATA[Browser Initialized.
 Set Implicit Wait to 15 seconds.
 Navigated to URL: http://automationexercise.com
 Explicit wait for presence of By.cssSelector: a[href='/products']
-Explicit wait for presence of By.cssSelector: a[href='/products']
-Clicked element By.cssSelector: a[href='/products']
-Clicked Products button
-Explicit wait for presence of By.cssSelector: a[href*='/product_details/1']
-Clicked element with JavaScript: By.cssSelector: a[href*='/product_details/1']
-Explicit wait for presence of By.cssSelector: button.cart
-Clicked element By.cssSelector: button.cart
-Explicit wait for presence of By.cssSelector: #cartModal .modal-content
-Explicit wait for presence of By.xpath: //div[@id='cartModal']//u[contains(text(),'View Cart')]
-Clicked element By.xpath: //div[@id='cartModal']//u[contains(text(),'View Cart')]
-Explicit wait for presence of By.cssSelector: #cart_info_table tbody tr:nth-of-type(1) td.cart_quantity button
-Got text from element By.cssSelector: #cart_info_table tbody tr:nth-of-type(1) td.cart_quantity button: 1
-Explicit wait for presence of By.cssSelector: a.check_out
-Clicked element By.cssSelector: a.check_out
-Explicit wait for presence of By.xpath: //u[contains(text(),'Register / Login')]
-Clicked element By.xpath: //u[contains(text(),'Register / Login')]
-Explicit wait for presence of By.cssSelector: input[data-qa='signup-name']
-Sent keys to element By.cssSelector: input[data-qa='signup-name']
-Explicit wait for presence of By.cssSelector: input[data-qa='signup-email']
-Sent keys to element By.cssSelector: input[data-qa='signup-email']
-Explicit wait for presence of By.cssSelector: button[data-qa='signup-button']
-Clicked element By.cssSelector: button[data-qa='signup-button']
-Explicit wait for presence of By.cssSelector: h2.title
-Got text from element By.cssSelector: h2.title: ENTER ACCOUNT INFORMATION
-Explicit wait for presence of By.cssSelector: input#id_gender1
-Clicked element By.cssSelector: input#id_gender1
-Explicit wait for presence of By.cssSelector: input[data-qa='password']
-Sent keys to element By.cssSelector: input[data-qa='password']
-Explicit wait for presence of By.cssSelector: select#days
-Selected dropdown value by value: 10
-Explicit wait for presence of By.cssSelector: select#months
-Selected dropdown value by value: 5
-Explicit wait for presence of By.cssSelector: select#years
-Selected dropdown value by value: 1995
-Explicit wait for presence of By.cssSelector: input#newsletter
-Edges: Checked the checkbox By.cssSelector: input#newsletter
-Explicit wait for presence of By.cssSelector: input#optin
-Edges: Checked the checkbox By.cssSelector: input#optin
-Explicit wait for presence of By.cssSelector: input[data-qa='first_name']
-Sent keys to element By.cssSelector: input[data-qa='first_name']
-Explicit wait for presence of By.cssSelector: input[data-qa='last_name']
-Sent keys to element By.cssSelector: input[data-qa='last_name']
-Explicit wait for presence of By.cssSelector: input[data-qa='company']
-Sent keys to element By.cssSelector: input[data-qa='company']
-Explicit wait for presence of By.cssSelector: input[data-qa='address']
-Sent keys to element By.cssSelector: input[data-qa='address']
-Explicit wait for presence of By.cssSelector: input[data-qa='address2']
-Sent keys to element By.cssSelector: input[data-qa='address2']
-Explicit wait for presence of By.cssSelector: select[data-qa='country']
-Selected dropdown value by visible text: United States
-Explicit wait for presence of By.cssSelector: input[data-qa='state']
-Sent keys to element By.cssSelector: input[data-qa='state']
-Explicit wait for presence of By.cssSelector: input[data-qa='city']
-Sent keys to element By.cssSelector: input[data-qa='city']
-Explicit wait for presence of By.cssSelector: input[data-qa='zipcode']
-Sent keys to element By.cssSelector: input[data-qa='zipcode']
-Explicit wait for presence of By.cssSelector: input[data-qa='mobile_number']
-Sent keys to element By.cssSelector: input[data-qa='mobile_number']
-Explicit wait for presence of By.cssSelector: button[data-qa='create-account']
-Clicked element By.cssSelector: button[data-qa='create-account']
-Explicit wait for presence of By.cssSelector: h2[data-qa='account-created']
-Got text from element By.cssSelector: h2[data-qa='account-created']: ACCOUNT CREATED!
-Explicit wait for presence of By.cssSelector: a[data-qa='continue-button']
-Clicked element By.cssSelector: a[data-qa='continue-button']
-Explicit wait for presence of By.cssSelector: a:has(> i.fa-user)
-Explicit wait for presence of By.cssSelector: a[href='/view_cart']
-Clicked element By.cssSelector: a[href='/view_cart']
-Clicked Cart button
-Explicit wait for presence of By.cssSelector: a.check_out
-Clicked element By.cssSelector: a.check_out
-Explicit wait for presence of By.cssSelector: #address_delivery
-Explicit wait for presence of By.cssSelector: #address_invoice
-Explicit wait for presence of By.cssSelector: #cart_info
-Explicit wait for presence of By.name: message
-Sent keys to element By.name: message
-Explicit wait for presence of By.cssSelector: a.check_out
-Clicked element By.cssSelector: a.check_out
-Explicit wait for presence of By.name: name_on_card
-Sent keys to element By.name: name_on_card
-Sent keys to element By.name: card_number
-Sent keys to element By.name: cvc
-Sent keys to element By.name: expiry_month
-Sent keys to element By.name: expiry_year
-Explicit wait for presence of By.id: submit
-Clicked element By.id: submit
-Explicit wait for presence of By.cssSelector: .alert-success
-Explicit wait for presence of By.xpath: //a[contains(.,'Download Invoice')]
-Clicked element By.xpath: //a[contains(.,'Download Invoice')]
-Explicit wait for presence of By.xpath: //a[contains(.,'Continue')]
-Clicked element By.xpath: //a[contains(.,'Continue')]
-Explicit wait for presence of By.cssSelector: a[href='/delete_account']
-Clicked element By.cssSelector: a[href='/delete_account']
-Explicit wait for presence of By.cssSelector: h2[data-qa='account-deleted']
-Got text from element By.cssSelector: h2[data-qa='account-deleted']: ACCOUNT DELETED!
-Explicit wait for presence of By.cssSelector: a[data-qa='continue-button']
-Clicked element By.cssSelector: a[data-qa='continue-button']
+Scrolled to element By.xpath: //footer//h2[contains(translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'SUBSCRIPTION')] using Actions.scrollToElement().
+Explicit wait for presence of By.xpath: //footer//h2[contains(translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'SUBSCRIPTION')]
+Got text from element By.xpath: //footer//h2[contains(translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'SUBSCRIPTION')]: SUBSCRIPTION
+Explicit wait for presence of By.cssSelector: #scrollUp
+Clicked element By.cssSelector: #scrollUp
+Explicit wait for presence of By.xpath: //*[contains(translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'FULL-FLEDGED PRACTICE WEBSITE FOR AUTOMATION ENGINEERS')]
+Got text from element By.xpath: //*[contains(translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'FULL-FLEDGED PRACTICE WEBSITE FOR AUTOMATION ENGINEERS')]: Home
+ Products
+Cart
+Signup / Login
+Test Cases
+API Testing
+Video Tutorials
+Contact us
+AutomationExercise
+Full-Fledged practice website for Automation Engineers
+All QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills.
+Test Cases APIs list for practice
+CATEGORY
+WOMEN
+MEN
+KIDS
+BRANDS
+(6)
+POLO
+(5)
+H&M
+(5)
+MADAME
+(3)
+MAST & HARBOUR
+(4)
+BABYHUG
+(3)
+ALLEN SOLLY JUNIOR
+(3)
+KOOKIE KIDS
+(5)
+BIBA
+FEATURES ITEMS
+Rs. 500
+Blue Top
+Add to cart
+View Product
+Rs. 400
+Men Tshirt
+Add to cart
+View Product
+Rs. 1000
+Sleeveless Dress
+Add to cart
+View Product
+Rs. 1500
+Stylish Dress
+Add to cart
+View Product
+Rs. 600
+Winter Top
+Add to cart
+View Product
+Rs. 400
+Summer White Top
+Add to cart
+View Product
+Rs. 1000
+Madame Top For Women
+Add to cart
+View Product
+Rs. 700
+Fancy Green Top
+Add to cart
+View Product
+Rs. 499
+Sleeves Printed Top - White
+Add to cart
+View Product
+Rs. 359
+Half Sleeves Top Schiffli Detailing - Pink
+Add to cart
+View Product
+Rs. 278
+Frozen Tops For Kids
+Add to cart
+View Product
+Rs. 679
+Full Sleeves Top Cherry - Pink
+Add to cart
+View Product
+Rs. 315
+Printed Off Shoulder Top - White
+Add to cart
+View Product
+Rs. 478
+Sleeves Top and Short - Blue & Pink
+Add to cart
+View Product
+Rs. 1200
+Little Girls Mr. Panda Shirt
+Add to cart
+View Product
+Rs. 1050
+Sleeveless Unicorn Patch Gown - Pink
+Add to cart
+View Product
+Rs. 1190
+Cotton Mull Embroidered Dress
+Add to cart
+View Product
+Rs. 1530
+Blue Cotton Indie Mickey Dress
+Add to cart
+View Product
+Rs. 1600
+Long Maxi Tulle Fancy Dress Up Outfits -Pink
+Add to cart
+View Product
+Rs. 1100
+Sleeveless Unicorn Print Fit & Flare Net Dress - Multi
+Add to cart
+View Product
+Rs. 849
+Colour Blocked Shirt – Sky Blue
+Add to cart
+View Product
+Rs. 1299
+Pure Cotton V-Neck T-Shirt
+Add to cart
+View Product
+Rs. 1000
+Green Side Placket Detail T-Shirt
+Add to cart
+View Product
+Rs. 1500
+Premium Polo T-Shirts
+Add to cart
+View Product
+Rs. 850
+Pure Cotton Neon Green Tshirt
+Add to cart
+View Product
+Rs. 799
+Soft Stretch Jeans
+Add to cart
+View Product
+Rs. 1200
+Regular Fit Straight Jeans
+Add to cart
+View Product
+Rs. 1400
+Grunt Blue Slim Fit Jeans
+Add to cart
+View Product
+Rs. 2300
+Rose Pink Embroidered Maxi Dress
+Add to cart
+View Product
+Rs. 3000
+Cotton Silk Hand Block Print Saree
+Add to cart
+View Product
+Rs. 3500
+Rust Red Linen Saree
+Add to cart
+View Product
+Rs. 5000
+Beautiful Peacock Blue Cotton Linen Saree
+Add to cart
+View Product
+Rs. 1400
+Lace Top For Women
+Add to cart
+View Product
+Rs. 1389
+GRAPHIC DESIGN MEN T SHIRT - BLUE
+Add to cart
+View Product
+RECOMMENDED ITEMS
+Rs. 1500
+Stylish Dress
+Add to cart
+Rs. 600
+Winter Top
+Add to cart
+Rs. 400
+Summer White Top
+Add to cart
+SUBSCRIPTION
+Get the most recent updates from
+our site and be updated your self...
+Copyright © 2021 All rights reserved
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Sep 14, 2025 10:01:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Sep 14, 2025 10:23:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
 ]]></system-err>
   </testcase>

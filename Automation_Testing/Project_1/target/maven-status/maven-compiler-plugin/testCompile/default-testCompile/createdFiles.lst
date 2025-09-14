@@ -3,6 +3,7 @@ TestCases\VerifyAllProductsAndDetailPageTest.class
 HelloTestNG.class
 packageTwo_testng\ClassSix.class
 packageOne_testng\ClassTwo.class
+TestCases\VerifyScrollUpWithArrowTest.class
 packageTwo_testng\ClassFour.class
 TestCases\PlaceOrderLoginBeforeCheckoutTest.class
 TestCases\RemoveProductsFromCartTest.class
