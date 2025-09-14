@@ -4,6 +4,7 @@ TestCases\VerifyAllProductsAndDetailPageTest.class
 HelloTestNG.class
 packageOne_testng\ClassThree.class
 TestCases\PlaceOrderRegisterWhileCheckoutTest.class
+TestCases\PlaceOrderRegisterBeforeCheckoutTest.class
 packageTwo_testng\ClassSix.class
 packageOne_testng\ClassTwo.class
 packageTwo_testng\ClassFour.class

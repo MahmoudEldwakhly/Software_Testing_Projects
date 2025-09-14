@@ -108,13 +108,19 @@
         </classes>
     </test>
 -->
-                         <!-- PlaceOrderRegisterWhileCheckoutTest  -->
+                         <!-- PlaceOrderRegisterWhileCheckoutTest  
     <test name="PlaceOrderRegisterWhileCheckoutTest">
         <classes>
             <class name="testCases.PlaceOrderRegisterWhileCheckoutTest"/>
         </classes>
     </test>
-   
+-->
+                            <!-- testPlaceOrderRegisterBeforeCheckout  -->
+    <test name="testPlaceOrderRegisterBeforeCheckout">
+        <classes>
+            <class name="testCases.PlaceOrderRegisterBeforeCheckoutTest"/>
+        </classes>
+    </test>
     <!-- Whole TestCases package
     <test name="TestCases">
         <packages>
