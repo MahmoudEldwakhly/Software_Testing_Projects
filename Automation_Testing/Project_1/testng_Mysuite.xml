@@ -167,13 +167,20 @@
         </classes>
     </test>
   -->  
-      <!--  AddToCartFromRecommendedItemsTest  -->  
+      <!--  AddToCartFromRecommendedItemsTest  
     <test name=" AddToCartFromRecommendedItemsTest">
         <classes>
             <class name="testCases.AddToCartFromRecommendedItemsTest"/>
         </classes>
     </test>
+-->  
   
+        <!--  VerifyAddressDetailsInCheckoutTest  -->  
+    <test name=" VerifyAddressDetailsInCheckoutTest">
+        <classes>
+            <class name="testCases.VerifyAddressDetailsInCheckoutTest"/>
+        </classes>
+    </test>
   
    
     <!-- Whole TestCases package

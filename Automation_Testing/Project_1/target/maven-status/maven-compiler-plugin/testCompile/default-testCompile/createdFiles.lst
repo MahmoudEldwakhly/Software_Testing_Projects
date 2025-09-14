@@ -16,6 +16,7 @@ TestCases\LoginUserTest.class
 packageOne_testng\ClassThree.class
 TestCases\PlaceOrderRegisterWhileCheckoutTest.class
 TestCases\PlaceOrderRegisterBeforeCheckoutTest.class
+TestCases\VerifyAddressDetailsInCheckoutTest.class
 TestCases\ViewCategoryProductsTest.class
 packageTwo_testng\ClassFive.class
 TestCases\AddToCartFromRecommendedItemsTest.class
