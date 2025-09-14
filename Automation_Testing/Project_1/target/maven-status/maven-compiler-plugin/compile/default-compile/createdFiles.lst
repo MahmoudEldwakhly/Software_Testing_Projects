@@ -1,6 +1,8 @@
 Main\Pages\ProductsPage.class
 Main\Pages\RegistrationPage.class
 Frameworks\SeleniumFrameWork.class
+Main\Pages\CheckoutPage.class
+Main\Pages\PaymentPage.class
 Main\Pages\HomePage.class
 Main\Pages\ProductDetailPage.class
 Frameworks\WebDriverManager.class

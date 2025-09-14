@@ -88,6 +88,13 @@ public void fluentWait(By locator, int timeoutSeconds, int pollingMillis, String
         System.out.println("Right-clicked on element " + locator);
     }
 
+    // Click using JavaScript
+    public void clickWithJs(By locator) {
+    WebElement element = driver.findElement(locator);
+    ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+    ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+}
+
     // Send keys to element
     public void sendKeys(By locator, String text) {
         explicitWait.until(ExpectedConditions.visibilityOfElementLocated(locator)).sendKeys(text);

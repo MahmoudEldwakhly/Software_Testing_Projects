@@ -101,10 +101,17 @@
         </classes>
     </test>
     -->
-                     <!-- VerifyProductQuantityInCartTest  -->
+                     <!-- VerifyProductQuantityInCartTest  
     <test name="VerifyProductQuantityInCartTest">
         <classes>
             <class name="testCases.VerifyProductQuantityInCartTest"/>
+        </classes>
+    </test>
+-->
+                         <!-- PlaceOrderRegisterWhileCheckoutTest  -->
+    <test name="PlaceOrderRegisterWhileCheckoutTest">
+        <classes>
+            <class name="testCases.PlaceOrderRegisterWhileCheckoutTest"/>
         </classes>
     </test>
    

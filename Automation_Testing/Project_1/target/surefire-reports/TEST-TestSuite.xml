@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="18.28" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="35.707" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="D:\Downloads\Apache NetBeans\jdk\bin"/>
-    <property name="sun.java.command" value="C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire1025217808084721093\surefirebooter-20250914044401505_3.jar C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire1025217808084721093 2025-09-14T04-44-01_403-jvmRun1 surefire-20250914044401505_1tmp surefire_0-20250914044401505_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire15885250368763985333\surefirebooter-20250914051205796_3.jar C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire15885250368763985333 2025-09-14T05-12-05_695-jvmRun1 surefire-20250914051205796_1tmp surefire_0-20250914051205796_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Courses &amp; Trainings\Software Testing Diploma\Projects\Ex1\target\test-classes;D:\Courses &amp; Trainings\Software Testing Diploma\Projects\Ex1\target\classes;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-java\4.34.0\selenium-java-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.34.0\selenium-chrome-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.34.0\selenium-chromium-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.34.0\selenium-devtools-v136-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.34.0\selenium-devtools-v137-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.34.0\selenium-devtools-v138-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.34.0\selenium-edge-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.34.0\selenium-firefox-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.34.0\selenium-ie-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.34.0\selenium-safari-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire1025217808084721093\surefirebooter-20250914044401505_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire15885250368763985333\surefirebooter-20250914051205796_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1+9"/>
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="testVerifyProductQuantityInCart" classname="testCases.VerifyProductQuantityInCartTest" time="14.332">
+  <testcase name="testPlaceOrderRegisterWhileCheckout" classname="testCases.PlaceOrderRegisterWhileCheckoutTest" time="33.91">
     <system-out><![CDATA[Browser Initialized.
 Set Implicit Wait to 15 seconds.
 Navigated to URL: http://automationexercise.com
@@ -71,19 +71,103 @@ Clicked element By.cssSelector: a[href='/products']
 Clicked Products button
 Explicit wait for presence of By.cssSelector: a[href*='/product_details/1']
 Clicked element with JavaScript: By.cssSelector: a[href*='/product_details/1']
-Explicit wait for presence of By.cssSelector: .product-information
 Explicit wait for presence of By.id: quantity
 Explicit wait for presence of By.cssSelector: button.cart
 Clicked element By.cssSelector: button.cart
 Explicit wait for presence of By.xpath: //u[contains(text(),'View Cart')]
 Clicked element By.xpath: //u[contains(text(),'View Cart')]
 Explicit wait for presence of By.cssSelector: #cart_info_table tbody tr:nth-of-type(1) td.cart_quantity button
-Got text from element By.cssSelector: #cart_info_table tbody tr:nth-of-type(1) td.cart_quantity button: 4
+Got text from element By.cssSelector: #cart_info_table tbody tr:nth-of-type(1) td.cart_quantity button: 2
+Explicit wait for presence of By.cssSelector: a.check_out
+Clicked element By.cssSelector: a.check_out
+Explicit wait for presence of By.xpath: //u[contains(text(),'Register / Login')]
+Clicked element By.xpath: //u[contains(text(),'Register / Login')]
+Explicit wait for presence of By.cssSelector: input[data-qa='signup-name']
+Sent keys to element By.cssSelector: input[data-qa='signup-name']
+Explicit wait for presence of By.cssSelector: input[data-qa='signup-email']
+Sent keys to element By.cssSelector: input[data-qa='signup-email']
+Explicit wait for presence of By.cssSelector: button[data-qa='signup-button']
+Clicked element By.cssSelector: button[data-qa='signup-button']
+Explicit wait for presence of By.cssSelector: h2.title
+Got text from element By.cssSelector: h2.title: ENTER ACCOUNT INFORMATION
+Explicit wait for presence of By.cssSelector: input#id_gender1
+Clicked element By.cssSelector: input#id_gender1
+Explicit wait for presence of By.cssSelector: input[data-qa='password']
+Sent keys to element By.cssSelector: input[data-qa='password']
+Explicit wait for presence of By.cssSelector: select#days
+Selected dropdown value by value: 10
+Explicit wait for presence of By.cssSelector: select#months
+Selected dropdown value by value: 5
+Explicit wait for presence of By.cssSelector: select#years
+Selected dropdown value by value: 1995
+Explicit wait for presence of By.cssSelector: input#newsletter
+Edges: Checked the checkbox By.cssSelector: input#newsletter
+Explicit wait for presence of By.cssSelector: input#optin
+Edges: Checked the checkbox By.cssSelector: input#optin
+Explicit wait for presence of By.cssSelector: input[data-qa='first_name']
+Sent keys to element By.cssSelector: input[data-qa='first_name']
+Explicit wait for presence of By.cssSelector: input[data-qa='last_name']
+Sent keys to element By.cssSelector: input[data-qa='last_name']
+Explicit wait for presence of By.cssSelector: input[data-qa='company']
+Sent keys to element By.cssSelector: input[data-qa='company']
+Explicit wait for presence of By.cssSelector: input[data-qa='address']
+Sent keys to element By.cssSelector: input[data-qa='address']
+Explicit wait for presence of By.cssSelector: input[data-qa='address2']
+Sent keys to element By.cssSelector: input[data-qa='address2']
+Explicit wait for presence of By.cssSelector: select[data-qa='country']
+Selected dropdown value by visible text: United States
+Explicit wait for presence of By.cssSelector: input[data-qa='state']
+Sent keys to element By.cssSelector: input[data-qa='state']
+Explicit wait for presence of By.cssSelector: input[data-qa='city']
+Sent keys to element By.cssSelector: input[data-qa='city']
+Explicit wait for presence of By.cssSelector: input[data-qa='zipcode']
+Sent keys to element By.cssSelector: input[data-qa='zipcode']
+Explicit wait for presence of By.cssSelector: input[data-qa='mobile_number']
+Sent keys to element By.cssSelector: input[data-qa='mobile_number']
+Explicit wait for presence of By.cssSelector: button[data-qa='create-account']
+Clicked element By.cssSelector: button[data-qa='create-account']
+Explicit wait for presence of By.cssSelector: h2[data-qa='account-created']
+Got text from element By.cssSelector: h2[data-qa='account-created']: ACCOUNT CREATED!
+Explicit wait for presence of By.cssSelector: a[data-qa='continue-button']
+Clicked element By.cssSelector: a[data-qa='continue-button']
+Explicit wait for presence of By.cssSelector: a:has(> i.fa-user)
+Got text from element By.cssSelector: a:has(> i.fa-user): Logged in as Order User
+Explicit wait for presence of By.cssSelector: a[href='/view_cart']
+Clicked element By.cssSelector: a[href='/view_cart']
+Clicked Cart button
+Explicit wait for presence of By.cssSelector: a.check_out
+Clicked element By.cssSelector: a.check_out
+Explicit wait for presence of By.cssSelector: #address_delivery
+Explicit wait for presence of By.cssSelector: #cart_info
+Explicit wait for presence of By.name: message
+Sent keys to element By.name: message
+Explicit wait for presence of By.cssSelector: a.check_out
+Clicked element By.cssSelector: a.check_out
+Explicit wait for presence of By.name: name_on_card
+Sent keys to element By.name: name_on_card
+Explicit wait for presence of By.name: card_number
+Sent keys to element By.name: card_number
+Explicit wait for presence of By.name: cvc
+Sent keys to element By.name: cvc
+Explicit wait for presence of By.name: expiry_month
+Sent keys to element By.name: expiry_month
+Explicit wait for presence of By.name: expiry_year
+Sent keys to element By.name: expiry_year
+Explicit wait for presence of By.id: submit
+Normal click failed, trying JavaScript click...
+Explicit wait for presence of By.xpath: //*[contains(text(),'ORDER PLACED') or contains(text(),'Your order has been confirmed')]
+Got text from element By.xpath: //*[contains(text(),'ORDER PLACED') or contains(text(),'Your order has been confirmed')]: Congratulations! Your order has been confirmed!
+Explicit wait for presence of By.cssSelector: a[href='/delete_account']
+Clicked element By.cssSelector: a[href='/delete_account']
+Explicit wait for presence of By.cssSelector: h2[data-qa='account-deleted']
+Got text from element By.cssSelector: h2[data-qa='account-deleted']: ACCOUNT DELETED!
+Explicit wait for presence of By.cssSelector: a[data-qa='continue-button']
+Clicked element By.cssSelector: a[data-qa='continue-button']
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Sep 14, 2025 4:44:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Sep 14, 2025 5:12:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
 ]]></system-err>
   </testcase>

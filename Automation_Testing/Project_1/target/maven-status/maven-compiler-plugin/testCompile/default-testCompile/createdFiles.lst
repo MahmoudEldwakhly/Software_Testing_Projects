@@ -3,6 +3,7 @@ TestCases\LoginUserTest.class
 TestCases\VerifyAllProductsAndDetailPageTest.class
 HelloTestNG.class
 packageOne_testng\ClassThree.class
+TestCases\PlaceOrderRegisterWhileCheckoutTest.class
 packageTwo_testng\ClassSix.class
 packageOne_testng\ClassTwo.class
 packageTwo_testng\ClassFour.class

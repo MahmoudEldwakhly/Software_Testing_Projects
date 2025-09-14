@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-14T04:44:02 EEST" name="MySuite" finished-at="2025-09-14T04:44:19 EEST" duration-ms="17904">
+  <suite started-at="2025-09-14T05:12:06 EEST" name="MySuite" finished-at="2025-09-14T05:12:41 EEST" duration-ms="35338">
     <groups>
     </groups>
-    <test started-at="2025-09-14T04:44:02 EEST" name="VerifyProductQuantityInCartTest" finished-at="2025-09-14T04:44:19 EEST" duration-ms="17904">
-      <class name="testCases.VerifyProductQuantityInCartTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.VerifyProductQuantityInCartTest@12e61fe6]" started-at="2025-09-14T04:44:02 EEST" name="setUp" finished-at="2025-09-14T04:44:05 EEST" duration-ms="3389" status="PASS">
+    <test started-at="2025-09-14T05:12:06 EEST" name="PlaceOrderRegisterWhileCheckoutTest" finished-at="2025-09-14T05:12:41 EEST" duration-ms="35338">
+      <class name="testCases.PlaceOrderRegisterWhileCheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.PlaceOrderRegisterWhileCheckoutTest@12e61fe6]" started-at="2025-09-14T05:12:06 EEST" name="setUp" finished-at="2025-09-14T05:12:07 EEST" duration-ms="1184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testVerifyProductQuantityInCart()[pri:0, instance:testCases.VerifyProductQuantityInCartTest@12e61fe6]" started-at="2025-09-14T04:44:05 EEST" name="testVerifyProductQuantityInCart" finished-at="2025-09-14T04:44:19 EEST" duration-ms="14332" status="PASS">
+        <test-method signature="testPlaceOrderRegisterWhileCheckout()[pri:0, instance:testCases.PlaceOrderRegisterWhileCheckoutTest@12e61fe6]" started-at="2025-09-14T05:12:07 EEST" name="testPlaceOrderRegisterWhileCheckout" finished-at="2025-09-14T05:12:41 EEST" duration-ms="33909" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testVerifyProductQuantityInCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.VerifyProductQuantityInCartTest@12e61fe6]" started-at="2025-09-14T04:44:19 EEST" name="tearDown" finished-at="2025-09-14T04:44:19 EEST" duration-ms="157" status="PASS">
+        </test-method> <!-- testPlaceOrderRegisterWhileCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.PlaceOrderRegisterWhileCheckoutTest@12e61fe6]" started-at="2025-09-14T05:12:41 EEST" name="tearDown" finished-at="2025-09-14T05:12:41 EEST" duration-ms="218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.VerifyProductQuantityInCartTest -->
-    </test> <!-- VerifyProductQuantityInCartTest -->
+      </class> <!-- testCases.PlaceOrderRegisterWhileCheckoutTest -->
+    </test> <!-- PlaceOrderRegisterWhileCheckoutTest -->
   </suite> <!-- MySuite -->
 </testng-results>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [MySuite]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="5" name="VerifyProductQuantityInCartTest(failed)" verbose="0">
+  <test thread-count="5" name="PlaceOrderRegisterWhileCheckoutTest(failed)" verbose="0">
     <classes>
-      <class name="testCases.VerifyProductQuantityInCartTest">
+      <class name="testCases.PlaceOrderRegisterWhileCheckoutTest">
         <methods>
-          <include name="setUp"/>
+          <include name="testPlaceOrderRegisterWhileCheckout"/>
           <include name="tearDown"/>
-          <include name="testVerifyProductQuantityInCart"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- testCases.VerifyProductQuantityInCartTest -->
+      </class> <!-- testCases.PlaceOrderRegisterWhileCheckoutTest -->
     </classes>
-  </test> <!-- VerifyProductQuantityInCartTest(failed) -->
+  </test> <!-- PlaceOrderRegisterWhileCheckoutTest(failed) -->
 </suite> <!-- Failed suite [MySuite] -->
