@@ -101,10 +101,10 @@
         </classes>
     </test>
     -->
-                     <!-- AddProductsInCartTest  -->
-    <test name="AddProductsInCartTest">
+                     <!-- VerifyProductQuantityInCartTest  -->
+    <test name="VerifyProductQuantityInCartTest">
         <classes>
-            <class name="testCases.AddProductsInCartTest"/>
+            <class name="testCases.VerifyProductQuantityInCartTest"/>
         </classes>
     </test>
    

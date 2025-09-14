@@ -12,12 +12,14 @@ public class CartPage {
 
     // First product cells
     private By firstProductPrice = By.cssSelector("#cart_info_table tbody tr:nth-of-type(1) td.cart_price");
-    private By firstProductQuantity = By.cssSelector("#cart_info_table tbody tr:nth-of-type(1) td.cart_quantity");
+    private By firstProductQuantityCell = By.cssSelector("#cart_info_table tbody tr:nth-of-type(1) td.cart_quantity");
+    private By firstProductQuantityButton = By.cssSelector("#cart_info_table tbody tr:nth-of-type(1) td.cart_quantity button");
     private By firstProductTotal = By.cssSelector("#cart_info_table tbody tr:nth-of-type(1) td.cart_total");
 
     // Second product cells
     private By secondProductPrice = By.cssSelector("#cart_info_table tbody tr:nth-of-type(2) td.cart_price");
-    private By secondProductQuantity = By.cssSelector("#cart_info_table tbody tr:nth-of-type(2) td.cart_quantity");
+    private By secondProductQuantityCell = By.cssSelector("#cart_info_table tbody tr:nth-of-type(2) td.cart_quantity");
+    private By secondProductQuantityButton = By.cssSelector("#cart_info_table tbody tr:nth-of-type(2) td.cart_quantity button");
     private By secondProductTotal = By.cssSelector("#cart_info_table tbody tr:nth-of-type(2) td.cart_total");
 
     public CartPage(SeleniumFrameWork framework) {
@@ -37,18 +39,18 @@ public class CartPage {
     public boolean areDetailsPresentForBoth() {
         try {
             framework.explicitWait(firstProductPrice, 10);
-            framework.explicitWait(firstProductQuantity, 10);
+            framework.explicitWait(firstProductQuantityCell, 10);
             framework.explicitWait(firstProductTotal, 10);
             framework.explicitWait(secondProductPrice, 10);
-            framework.explicitWait(secondProductQuantity, 10);
+            framework.explicitWait(secondProductQuantityCell, 10);
             framework.explicitWait(secondProductTotal, 10);
 
             String p1 = framework.getText(firstProductPrice);
-            String q1 = framework.getText(firstProductQuantity);
+            String q1 = framework.getText(firstProductQuantityButton); // button text
             String t1 = framework.getText(firstProductTotal);
 
             String p2 = framework.getText(secondProductPrice);
-            String q2 = framework.getText(secondProductQuantity);
+            String q2 = framework.getText(secondProductQuantityButton); // button text
             String t2 = framework.getText(secondProductTotal);
 
             return !p1.isEmpty() && !q1.isEmpty() && !t1.isEmpty()
@@ -61,11 +63,11 @@ public class CartPage {
     public boolean lineTotalsAreCorrect() {
         try {
             int price1 = parseMoney(framework.getText(firstProductPrice));
-            int qty1   = parseIntSafe(framework.getText(firstProductQuantity));
+            int qty1   = parseIntSafe(framework.getText(firstProductQuantityButton));
             int total1 = parseMoney(framework.getText(firstProductTotal));
 
             int price2 = parseMoney(framework.getText(secondProductPrice));
-            int qty2   = parseIntSafe(framework.getText(secondProductQuantity));
+            int qty2   = parseIntSafe(framework.getText(secondProductQuantityButton));
             int total2 = parseMoney(framework.getText(secondProductTotal));
 
             boolean ok1 = (price1 * qty1) == total1;
@@ -83,6 +85,15 @@ public class CartPage {
         }
     }
 
+    public String getFirstProductQuantity() {
+        try {
+            framework.explicitWait(firstProductQuantityButton, 10);
+            return framework.getText(firstProductQuantityButton).trim();
+        } catch (Exception e) {
+            return "";
+        }
+    }
+
     private int parseMoney(String txt) {
         // Example: "Rs. 500" -> 500
         String digits = txt.replaceAll("[^0-9]", "");
@@ -90,7 +101,7 @@ public class CartPage {
     }
 
     private int parseIntSafe(String txtCell) {
-        // Quantity cell might contain inner elements; extract digits
+        // Extract digits from any cell/button text
         String digits = txtCell.replaceAll("[^0-9]", "");
         return digits.isEmpty() ? 0 : Integer.parseInt(digits);
     }

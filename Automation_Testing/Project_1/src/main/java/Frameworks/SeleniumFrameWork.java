@@ -93,6 +93,14 @@ public void fluentWait(By locator, int timeoutSeconds, int pollingMillis, String
         explicitWait.until(ExpectedConditions.visibilityOfElementLocated(locator)).sendKeys(text);
         System.out.println("Sent keys to element " + locator);
     }
+    
+    // Clear first then Send keys to element
+    public void clearAndSendKeys(By locator, String text) {
+    driver.findElement(locator).clear();
+    driver.findElement(locator).sendKeys(text);
+}
+
+    
 
     // Get text from element
     public String getText(By locator) {

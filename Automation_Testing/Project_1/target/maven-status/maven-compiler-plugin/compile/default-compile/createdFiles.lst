@@ -1,12 +1,13 @@
+Main\Pages\ProductsPage.class
+Main\Pages\RegistrationPage.class
+Frameworks\SeleniumFrameWork.class
 Main\Pages\HomePage.class
+Main\Pages\ProductDetailPage.class
 Frameworks\WebDriverManager.class
 Main\Pages\CartPage.class
 Main\Pages\ContactUsPage.class
-Main\Pages\ProductsPage.class
 input.class
 Main\Pages\LoginPage.class
 Main\Pages\SignupPage.class
 Ex1.class
-Main\Pages\RegistrationPage.class
 Ex1$1.class
-Frameworks\SeleniumFrameWork.class
