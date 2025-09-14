@@ -87,17 +87,32 @@
         </classes>
     </test>
     -->
-                   <!-- VerifySubscriptionInHomePageTest -->
+                   <!-- VerifySubscriptionInHomePageTest 
     <test name="VerifySubscriptionInCartPageTest">
         <classes>
             <class name="testCases.VerifySubscriptionInCartPageTest"/>
         </classes>
     </test>
-    <!-- Whole TestCases package 
+-->    
+                       <!-- AddProductsInCartTest 
+    <test name="AddProductsInCartTest">
+        <classes>
+            <class name="testCases.AddProductsInCartTest"/>
+        </classes>
+    </test>
+    -->
+                     <!-- AddProductsInCartTest  -->
+    <test name="AddProductsInCartTest">
+        <classes>
+            <class name="testCases.AddProductsInCartTest"/>
+        </classes>
+    </test>
+   
+    <!-- Whole TestCases package
     <test name="TestCases">
         <packages>
             <package name="testCases"/>
         </packages>
     </test>
--->
+--> 
 </suite>

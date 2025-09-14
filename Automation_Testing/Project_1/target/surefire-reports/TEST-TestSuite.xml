@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="9.179" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="216.542" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="D:\Downloads\Apache NetBeans\jdk\bin"/>
-    <property name="sun.java.command" value="C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire10827113400143574832\surefirebooter-20250914031550699_3.jar C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire10827113400143574832 2025-09-14T03-15-50_577-jvmRun1 surefire-20250914031550699_1tmp surefire_0-20250914031550699_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire6441217374431667658\surefirebooter-20250914035018382_3.jar C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire6441217374431667658 2025-09-14T03-50-18_254-jvmRun1 surefire-20250914035018382_1tmp surefire_0-20250914035018382_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Courses &amp; Trainings\Software Testing Diploma\Projects\Ex1\target\test-classes;D:\Courses &amp; Trainings\Software Testing Diploma\Projects\Ex1\target\classes;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-java\4.34.0\selenium-java-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.34.0\selenium-chrome-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.34.0\selenium-chromium-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.34.0\selenium-devtools-v136-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.34.0\selenium-devtools-v137-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.34.0\selenium-devtools-v138-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.34.0\selenium-edge-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.34.0\selenium-firefox-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.34.0\selenium-ie-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.34.0\selenium-safari-driver-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\mahmoud eldawakhly\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire10827113400143574832\surefirebooter-20250914031550699_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\mahmoud eldawakhly\AppData\Local\Temp\surefire6441217374431667658\surefirebooter-20250914035018382_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1+9"/>
@@ -61,8 +61,432 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="testVerifySubscriptionInCartPage" classname="testCases.VerifySubscriptionInCartPageTest" time="7.682">
+  <testcase name="testAddProductsInCart" classname="testCases.AddProductsInCartTest" time="10.552">
     <system-out><![CDATA[Browser Initialized.
+Set Implicit Wait to 15 seconds.
+Navigated to URL: http://automationexercise.com
+Page title is 'Automation Exercise'
+Explicit wait for presence of By.cssSelector: a[href='/products']
+Clicked element By.cssSelector: a[href='/products']
+Clicked Products button
+Explicit wait for presence of By.xpath: //h2[contains(text(),'All Products')]
+Got text from element By.xpath: //h2[contains(text(),'All Products')]: ALL PRODUCTS
+Explicit wait for presence of By.cssSelector: .features_items
+Explicit wait for presence of By.xpath: (//a[contains(text(),'Add to cart')])[1]
+Clicked element with JavaScript: By.xpath: (//a[contains(text(),'Add to cart')])[1]
+Explicit wait for presence of By.cssSelector: .btn.btn-success.close-modal.btn-block
+Clicked element By.cssSelector: .btn.btn-success.close-modal.btn-block
+Explicit wait for presence of By.xpath: (//a[contains(text(),'Add to cart')])[3]
+Clicked element with JavaScript: By.xpath: (//a[contains(text(),'Add to cart')])[3]
+Explicit wait for presence of By.cssSelector: a[href='/view_cart']
+Clicked element By.cssSelector: a[href='/view_cart']
+Explicit wait for presence of By.cssSelector: #cart_info_table tbody tr:nth-of-type(1)
+Explicit wait for presence of By.cssSelector: #cart_info_table tbody tr:nth-of-type(2)
+Explicit wait for presence of By.cssSelector: #cart_info_table tbody tr:nth-of-type(1) td.cart_price
+Explicit wait for presence of By.cssSelector: #cart_info_table tbody tr:nth-of-type(1) td.cart_quantity
+Explicit wait for presence of By.cssSelector: #cart_info_table tbody tr:nth-of-type(1) td.cart_total
+Explicit wait for presence of By.cssSelector: #cart_info_table tbody tr:nth-of-type(2) td.cart_price
+Explicit wait for presence of By.cssSelector: #cart_info_table tbody tr:nth-of-type(2) td.cart_quantity
+Explicit wait for presence of By.cssSelector: #cart_info_table tbody tr:nth-of-type(2) td.cart_total
+Got text from element By.cssSelector: #cart_info_table tbody tr:nth-of-type(1) td.cart_price: Rs. 500
+Got text from element By.cssSelector: #cart_info_table tbody tr:nth-of-type(1) td.cart_quantity: 1
+Got text from element By.cssSelector: #cart_info_table tbody tr:nth-of-type(1) td.cart_total: Rs. 500
+Got text from element By.cssSelector: #cart_info_table tbody tr:nth-of-type(2) td.cart_price: Rs. 400
+Got text from element By.cssSelector: #cart_info_table tbody tr:nth-of-type(2) td.cart_quantity: 1
+Got text from element By.cssSelector: #cart_info_table tbody tr:nth-of-type(2) td.cart_total: Rs. 400
+Got text from element By.cssSelector: #cart_info_table tbody tr:nth-of-type(1) td.cart_price: Rs. 500
+Got text from element By.cssSelector: #cart_info_table tbody tr:nth-of-type(1) td.cart_quantity: 1
+Got text from element By.cssSelector: #cart_info_table tbody tr:nth-of-type(1) td.cart_total: Rs. 500
+Got text from element By.cssSelector: #cart_info_table tbody tr:nth-of-type(2) td.cart_price: Rs. 400
+Got text from element By.cssSelector: #cart_info_table tbody tr:nth-of-type(2) td.cart_quantity: 1
+Got text from element By.cssSelector: #cart_info_table tbody tr:nth-of-type(2) td.cart_total: Rs. 400
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Sep 14, 2025 3:50:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="testContactUsForm" classname="testCases.ContactUsTest" time="11.116">
+    <system-out><![CDATA[Browser Closed.
+Browser Initialized.
+Set Implicit Wait to 15 seconds.
+Navigated to URL: http://automationexercise.com
+Page title is 'Automation Exercise'
+Clicked element By.cssSelector: a[href='/contact_us']
+Explicit wait for presence of By.xpath: //h2[contains(text(),'Get In Touch')]
+Got text from element By.xpath: //h2[contains(text(),'Get In Touch')]: GET IN TOUCH
+Sent keys to element By.cssSelector: input[data-qa='name']
+Sent keys to element By.cssSelector: input[data-qa='email']
+Sent keys to element By.cssSelector: input[data-qa='subject']
+Sent keys to element By.cssSelector: textarea[data-qa='message']
+Sent keys to element By.cssSelector: input[name='upload_file']
+Clicked element By.cssSelector: input[data-qa='submit-button']
+Alert accepted.
+Explicit wait for presence of By.xpath: //div[contains(@class,'status') and contains(text(),'Success!')]
+Got text from element By.xpath: //div[contains(@class,'status') and contains(text(),'Success!')]: Success! Your details have been submitted successfully.
+Clicked element By.cssSelector: a.btn-success
+Page title is 'Automation Exercise'
+]]></system-out>
+    <system-err><![CDATA[Sep 14, 2025 3:50:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginUserWithIncorrectCredentials" classname="testCases.LoginUserIncorrectTest" time="10.306">
+    <system-out><![CDATA[Browser Closed.
+Browser Initialized.
+Set Implicit Wait to 15 seconds.
+Navigated to URL: http://automationexercise.com
+Page title is 'Automation Exercise'
+Explicit wait for presence of By.cssSelector: a[href='/login']
+Clicked element By.cssSelector: a[href='/login']
+Explicit wait for presence of By.cssSelector: div.login-form h2
+Got text from element By.cssSelector: div.login-form h2: Login to your account
+Explicit wait for presence of By.cssSelector: input[data-qa='login-email']
+Sent keys to element By.cssSelector: input[data-qa='login-email']
+Explicit wait for presence of By.cssSelector: input[data-qa='login-password']
+Sent keys to element By.cssSelector: input[data-qa='login-password']
+Explicit wait for presence of By.cssSelector: button[data-qa='login-button']
+Clicked element By.cssSelector: button[data-qa='login-button']
+Explicit wait for presence of By.xpath: //p[contains(text(),'Your email or password is incorrect!')]
+Got text from element By.xpath: //p[contains(text(),'Your email or password is incorrect!')]: Your email or password is incorrect!
+]]></system-out>
+    <system-err><![CDATA[Sep 14, 2025 3:50:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginUserWithCorrectCredentials" classname="testCases.LoginUserTest" time="21.989">
+    <system-out><![CDATA[Browser Closed.
+Browser Initialized.
+Set Implicit Wait to 15 seconds.
+Navigating to Automation Exercise...
+Navigated to URL: http://automationexercise.com
+Verifying home page...
+Page title is 'Automation Exercise'
+Clicking Signup/Login...
+Explicit wait for presence of By.cssSelector: a[href='/login']
+Clicked element By.cssSelector: a[href='/login']
+Verifying Login to your account text...
+Explicit wait for presence of By.cssSelector: div.login-form h2
+Got text from element By.cssSelector: div.login-form h2: Login to your account
+Entering login credentials...
+Explicit wait for presence of By.cssSelector: input[data-qa='login-email']
+Sent keys to element By.cssSelector: input[data-qa='login-email']
+Explicit wait for presence of By.cssSelector: input[data-qa='login-password']
+Sent keys to element By.cssSelector: input[data-qa='login-password']
+Clicking Login button...
+Explicit wait for presence of By.cssSelector: button[data-qa='login-button']
+Clicked element By.cssSelector: button[data-qa='login-button']
+Verifying login status...
+Explicit wait for presence of By.cssSelector: a:has(> i.fa-user)
+Got text from element By.cssSelector: a:has(> i.fa-user): Logged in as Existing User
+Explicit wait for presence of By.cssSelector: a[href='/delete_account']
+Clicked element By.cssSelector: a[href='/delete_account']
+Verifying account deletion...
+Explicit wait for presence of By.cssSelector: h2[data-qa='account-deleted']
+Got text from element By.cssSelector: h2[data-qa='account-deleted']: ACCOUNT DELETED!
+]]></system-out>
+    <system-err><![CDATA[Sep 14, 2025 3:50:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="testLogoutUser" classname="testCases.LogoutUserTest" time="18.759">
+    <system-out><![CDATA[Browser Closed.
+Browser Initialized.
+Set Implicit Wait to 15 seconds.
+Navigated to URL: http://automationexercise.com
+Page title is 'Automation Exercise'
+Explicit wait for presence of By.cssSelector: a[href='/login']
+Clicked element By.cssSelector: a[href='/login']
+Explicit wait for presence of By.cssSelector: div.signup-form h2
+Got text from element By.cssSelector: div.signup-form h2: New User Signup!
+Explicit wait for presence of By.cssSelector: input[data-qa='signup-name']
+Sent keys to element By.cssSelector: input[data-qa='signup-name']
+Explicit wait for presence of By.cssSelector: input[data-qa='signup-email']
+Sent keys to element By.cssSelector: input[data-qa='signup-email']
+Explicit wait for presence of By.cssSelector: button[data-qa='signup-button']
+Clicked element By.cssSelector: button[data-qa='signup-button']
+Explicit wait for presence of By.cssSelector: h2.title
+Got text from element By.cssSelector: h2.title: ENTER ACCOUNT INFORMATION
+Explicit wait for presence of By.cssSelector: input#id_gender1
+Clicked element By.cssSelector: input#id_gender1
+Explicit wait for presence of By.cssSelector: input[data-qa='password']
+Sent keys to element By.cssSelector: input[data-qa='password']
+Explicit wait for presence of By.cssSelector: select#days
+Selected dropdown value by value: 10
+Explicit wait for presence of By.cssSelector: select#months
+Selected dropdown value by value: 3
+Explicit wait for presence of By.cssSelector: select#years
+Selected dropdown value by value: 1995
+Explicit wait for presence of By.cssSelector: input#newsletter
+Edges: Checked the checkbox By.cssSelector: input#newsletter
+Explicit wait for presence of By.cssSelector: input#optin
+Edges: Checked the checkbox By.cssSelector: input#optin
+Explicit wait for presence of By.cssSelector: input[data-qa='first_name']
+Sent keys to element By.cssSelector: input[data-qa='first_name']
+Explicit wait for presence of By.cssSelector: input[data-qa='last_name']
+Sent keys to element By.cssSelector: input[data-qa='last_name']
+Explicit wait for presence of By.cssSelector: input[data-qa='company']
+Sent keys to element By.cssSelector: input[data-qa='company']
+Explicit wait for presence of By.cssSelector: input[data-qa='address']
+Sent keys to element By.cssSelector: input[data-qa='address']
+Explicit wait for presence of By.cssSelector: input[data-qa='address2']
+Sent keys to element By.cssSelector: input[data-qa='address2']
+Explicit wait for presence of By.cssSelector: select[data-qa='country']
+Selected dropdown value by visible text: United States
+Explicit wait for presence of By.cssSelector: input[data-qa='state']
+Sent keys to element By.cssSelector: input[data-qa='state']
+Explicit wait for presence of By.cssSelector: input[data-qa='city']
+Sent keys to element By.cssSelector: input[data-qa='city']
+Explicit wait for presence of By.cssSelector: input[data-qa='zipcode']
+Sent keys to element By.cssSelector: input[data-qa='zipcode']
+Explicit wait for presence of By.cssSelector: input[data-qa='mobile_number']
+Sent keys to element By.cssSelector: input[data-qa='mobile_number']
+Explicit wait for presence of By.cssSelector: button[data-qa='create-account']
+Clicked element By.cssSelector: button[data-qa='create-account']
+Explicit wait for presence of By.cssSelector: h2[data-qa='account-created']
+Got text from element By.cssSelector: h2[data-qa='account-created']: ACCOUNT CREATED!
+Explicit wait for presence of By.cssSelector: a[data-qa='continue-button']
+Clicked element By.cssSelector: a[data-qa='continue-button']
+Explicit wait for presence of By.cssSelector: a:has(> i.fa-user)
+Got text from element By.cssSelector: a:has(> i.fa-user): Logged in as Logout Test User
+Explicit wait for presence of By.cssSelector: a[href='/logout']
+Clicked element By.cssSelector: a[href='/logout']
+Clicked Logout button
+Explicit wait for presence of By.cssSelector: div.login-form h2
+Got text from element By.cssSelector: div.login-form h2: Login to your account
+]]></system-out>
+    <system-err><![CDATA[Sep 14, 2025 3:51:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="testRegisterUserWithExistingEmail" classname="testCases.RegisterUserExistingEmailTest" time="36.918">
+    <system-out><![CDATA[Browser Closed.
+Browser Initialized.
+Set Implicit Wait to 15 seconds.
+Navigated to URL: http://automationexercise.com
+Page title is 'Automation Exercise'
+Explicit wait for presence of By.cssSelector: a[href='/login']
+Clicked element By.cssSelector: a[href='/login']
+Explicit wait for presence of By.cssSelector: div.signup-form h2
+Got text from element By.cssSelector: div.signup-form h2: New User Signup!
+Explicit wait for presence of By.cssSelector: input[data-qa='login-email']
+Sent keys to element By.cssSelector: input[data-qa='login-email']
+Explicit wait for presence of By.cssSelector: input[data-qa='login-password']
+Sent keys to element By.cssSelector: input[data-qa='login-password']
+Explicit wait for presence of By.cssSelector: button[data-qa='login-button']
+Clicked element By.cssSelector: button[data-qa='login-button']
+Explicit wait for presence of By.cssSelector: a[href='/login']
+Clicked element By.cssSelector: a[href='/login']
+Explicit wait for presence of By.cssSelector: input[data-qa='signup-name']
+Sent keys to element By.cssSelector: input[data-qa='signup-name']
+Explicit wait for presence of By.cssSelector: input[data-qa='signup-email']
+Sent keys to element By.cssSelector: input[data-qa='signup-email']
+Explicit wait for presence of By.cssSelector: button[data-qa='signup-button']
+Clicked element By.cssSelector: button[data-qa='signup-button']
+Explicit wait for presence of By.cssSelector: h2.title
+Got text from element By.cssSelector: h2.title: ENTER ACCOUNT INFORMATION
+Explicit wait for presence of By.cssSelector: input#id_gender1
+Clicked element By.cssSelector: input#id_gender1
+Explicit wait for presence of By.cssSelector: input[data-qa='password']
+Sent keys to element By.cssSelector: input[data-qa='password']
+Explicit wait for presence of By.cssSelector: select#days
+Selected dropdown value by value: 10
+Explicit wait for presence of By.cssSelector: select#months
+Selected dropdown value by value: 3
+Explicit wait for presence of By.cssSelector: select#years
+Selected dropdown value by value: 1995
+Explicit wait for presence of By.cssSelector: input#newsletter
+Edges: Checked the checkbox By.cssSelector: input#newsletter
+Explicit wait for presence of By.cssSelector: input#optin
+Edges: Checked the checkbox By.cssSelector: input#optin
+Explicit wait for presence of By.cssSelector: input[data-qa='first_name']
+Sent keys to element By.cssSelector: input[data-qa='first_name']
+Explicit wait for presence of By.cssSelector: input[data-qa='last_name']
+Sent keys to element By.cssSelector: input[data-qa='last_name']
+Explicit wait for presence of By.cssSelector: input[data-qa='company']
+Sent keys to element By.cssSelector: input[data-qa='company']
+Explicit wait for presence of By.cssSelector: input[data-qa='address']
+Sent keys to element By.cssSelector: input[data-qa='address']
+Explicit wait for presence of By.cssSelector: input[data-qa='address2']
+Sent keys to element By.cssSelector: input[data-qa='address2']
+Explicit wait for presence of By.cssSelector: select[data-qa='country']
+Selected dropdown value by visible text: United States
+Explicit wait for presence of By.cssSelector: input[data-qa='state']
+Sent keys to element By.cssSelector: input[data-qa='state']
+Explicit wait for presence of By.cssSelector: input[data-qa='city']
+Sent keys to element By.cssSelector: input[data-qa='city']
+Explicit wait for presence of By.cssSelector: input[data-qa='zipcode']
+Sent keys to element By.cssSelector: input[data-qa='zipcode']
+Explicit wait for presence of By.cssSelector: input[data-qa='mobile_number']
+Sent keys to element By.cssSelector: input[data-qa='mobile_number']
+Explicit wait for presence of By.cssSelector: button[data-qa='create-account']
+Clicked element By.cssSelector: button[data-qa='create-account']
+Explicit wait for presence of By.cssSelector: h2[data-qa='account-created']
+Got text from element By.cssSelector: h2[data-qa='account-created']: ACCOUNT CREATED!
+Explicit wait for presence of By.cssSelector: a[data-qa='continue-button']
+Clicked element By.cssSelector: a[data-qa='continue-button']
+Explicit wait for presence of By.cssSelector: a:has(> i.fa-user)
+Got text from element By.cssSelector: a:has(> i.fa-user): Logged in as Existing User
+Explicit wait for presence of By.cssSelector: a[href='/logout']
+Clicked element By.cssSelector: a[href='/logout']
+Clicked Logout button
+Explicit wait for presence of By.cssSelector: a[href='/login']
+Clicked element By.cssSelector: a[href='/login']
+Explicit wait for presence of By.cssSelector: div.signup-form h2
+Got text from element By.cssSelector: div.signup-form h2: New User Signup!
+Explicit wait for presence of By.cssSelector: input[data-qa='signup-name']
+Sent keys to element By.cssSelector: input[data-qa='signup-name']
+Explicit wait for presence of By.cssSelector: input[data-qa='signup-email']
+Sent keys to element By.cssSelector: input[data-qa='signup-email']
+Explicit wait for presence of By.cssSelector: button[data-qa='signup-button']
+Clicked element By.cssSelector: button[data-qa='signup-button']
+Explicit wait for presence of By.xpath: //p[contains(text(),'Email Address already exist!')]
+Got text from element By.xpath: //p[contains(text(),'Email Address already exist!')]: Email Address already exist!
+]]></system-out>
+    <system-err><![CDATA[Sep 14, 2025 3:51:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="testRegisterUser" classname="testCases.RegisterUserTest" time="34.618">
+    <system-out><![CDATA[Browser Closed.
+Browser Initialized.
+Set Implicit Wait to 15 seconds.
+Navigating to Automation Exercise...
+Navigated to URL: http://automationexercise.com
+Verifying home page...
+Page title is 'Automation Exercise'
+Clicking Signup/Login...
+Explicit wait for presence of By.cssSelector: a[href='/login']
+Clicked element By.cssSelector: a[href='/login']
+Verifying New User Signup text...
+Explicit wait for presence of By.cssSelector: div.signup-form h2
+Got text from element By.cssSelector: div.signup-form h2: New User Signup!
+Entering signup details...
+Explicit wait for presence of By.cssSelector: input[data-qa='signup-name']
+Sent keys to element By.cssSelector: input[data-qa='signup-name']
+Explicit wait for presence of By.cssSelector: input[data-qa='signup-email']
+Sent keys to element By.cssSelector: input[data-qa='signup-email']
+Clicking Signup button...
+Explicit wait for presence of By.cssSelector: button[data-qa='signup-button']
+Clicked element By.cssSelector: button[data-qa='signup-button']
+Verifying Account Information text...
+Explicit wait for presence of By.cssSelector: h2.title
+Got text from element By.cssSelector: h2.title: ENTER ACCOUNT INFORMATION
+Filling account information...
+Explicit wait for presence of By.cssSelector: input#id_gender1
+Clicked element By.cssSelector: input#id_gender1
+Explicit wait for presence of By.cssSelector: input[data-qa='password']
+Sent keys to element By.cssSelector: input[data-qa='password']
+Explicit wait for presence of By.cssSelector: select#days
+Selected dropdown value by value: 14
+Explicit wait for presence of By.cssSelector: select#months
+Selected dropdown value by value: 2
+Explicit wait for presence of By.cssSelector: select#years
+Selected dropdown value by value: 2003
+Explicit wait for presence of By.cssSelector: input#newsletter
+Edges: Checked the checkbox By.cssSelector: input#newsletter
+Explicit wait for presence of By.cssSelector: input#optin
+Edges: Checked the checkbox By.cssSelector: input#optin
+Explicit wait for presence of By.cssSelector: input[data-qa='first_name']
+Sent keys to element By.cssSelector: input[data-qa='first_name']
+Explicit wait for presence of By.cssSelector: input[data-qa='last_name']
+Sent keys to element By.cssSelector: input[data-qa='last_name']
+Explicit wait for presence of By.cssSelector: input[data-qa='company']
+Sent keys to element By.cssSelector: input[data-qa='company']
+Explicit wait for presence of By.cssSelector: input[data-qa='address']
+Sent keys to element By.cssSelector: input[data-qa='address']
+Explicit wait for presence of By.cssSelector: input[data-qa='address2']
+Sent keys to element By.cssSelector: input[data-qa='address2']
+Explicit wait for presence of By.cssSelector: select[data-qa='country']
+Selected dropdown value by visible text: United States
+Explicit wait for presence of By.cssSelector: input[data-qa='state']
+Sent keys to element By.cssSelector: input[data-qa='state']
+Explicit wait for presence of By.cssSelector: input[data-qa='city']
+Sent keys to element By.cssSelector: input[data-qa='city']
+Explicit wait for presence of By.cssSelector: input[data-qa='zipcode']
+Sent keys to element By.cssSelector: input[data-qa='zipcode']
+Explicit wait for presence of By.cssSelector: input[data-qa='mobile_number']
+Sent keys to element By.cssSelector: input[data-qa='mobile_number']
+Creating account...
+Explicit wait for presence of By.cssSelector: button[data-qa='create-account']
+Clicked element By.cssSelector: button[data-qa='create-account']
+Verifying account creation...
+Explicit wait for presence of By.cssSelector: h2[data-qa='account-created']
+Got text from element By.cssSelector: h2[data-qa='account-created']: ACCOUNT CREATED!
+Explicit wait for presence of By.cssSelector: a[data-qa='continue-button']
+Clicked element By.cssSelector: a[data-qa='continue-button']
+Verifying login status...
+Explicit wait for presence of By.cssSelector: a:has(> i.fa-user)
+Got text from element By.cssSelector: a:has(> i.fa-user): Logged in as Test User
+Explicit wait for presence of By.cssSelector: a[href='/delete_account']
+Clicked element By.cssSelector: a[href='/delete_account']
+Verifying account deletion...
+Explicit wait for presence of By.cssSelector: h2[data-qa='account-deleted']
+Got text from element By.cssSelector: h2[data-qa='account-deleted']: ACCOUNT DELETED!
+Explicit wait for presence of By.cssSelector: a[data-qa='continue-button']
+Clicked element By.cssSelector: a[data-qa='continue-button']
+]]></system-out>
+    <system-err><![CDATA[Sep 14, 2025 3:52:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="testSearchProduct" classname="testCases.SearchProductTest" time="13.703">
+    <system-out><![CDATA[Browser Closed.
+Browser Initialized.
+Set Implicit Wait to 15 seconds.
+Navigated to URL: http://automationexercise.com
+Page title is 'Automation Exercise'
+Explicit wait for presence of By.cssSelector: a[href='/products']
+Clicked element By.cssSelector: a[href='/products']
+Clicked Products button
+Explicit wait for presence of By.xpath: //h2[contains(text(),'All Products')]
+Got text from element By.xpath: //h2[contains(text(),'All Products')]: ALL PRODUCTS
+Explicit wait for presence of By.cssSelector: input#search_product
+Sent keys to element By.cssSelector: input#search_product
+Clicked element By.cssSelector: button#submit_search
+Explicit wait for presence of By.xpath: //h2[contains(text(),'Searched Products')]
+Got text from element By.xpath: //h2[contains(text(),'Searched Products')]: SEARCHED PRODUCTS
+Explicit wait for presence of By.cssSelector: .features_items .product-image-wrapper
+Got text from element By.cssSelector: .features_items .product-image-wrapper: Rs. 400
+Men Tshirt
+Add to cart
+View Product
+]]></system-out>
+    <system-err><![CDATA[Sep 14, 2025 3:52:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="testVerifyAllProductsAndDetailPage" classname="testCases.VerifyAllProductsAndDetailPageTest" time="18.993">
+    <system-out><![CDATA[Browser Closed.
+Browser Initialized.
+Set Implicit Wait to 15 seconds.
+Navigated to URL: http://automationexercise.com
+Page title is 'Automation Exercise'
+Explicit wait for presence of By.cssSelector: a[href='/products']
+Clicked element By.cssSelector: a[href='/products']
+Clicked Products button
+Explicit wait for presence of By.xpath: //h2[contains(text(),'All Products')]
+Got text from element By.xpath: //h2[contains(text(),'All Products')]: ALL PRODUCTS
+Explicit wait for presence of By.cssSelector: .features_items
+Explicit wait for presence of By.cssSelector: a[href*='/product_details/1']
+Clicked element with JavaScript: By.cssSelector: a[href*='/product_details/1']
+Explicit wait for presence of By.cssSelector: .product-information
+Explicit wait for presence of By.cssSelector: .product-information h2
+Explicit wait for presence of By.xpath: //p[contains(text(),'Category')]
+Explicit wait for presence of By.cssSelector: .product-information span span
+Explicit wait for presence of By.xpath: //b[contains(text(),'Availability')]
+Explicit wait for presence of By.xpath: //b[contains(text(),'Condition')]
+Explicit wait for presence of By.xpath: //b[contains(text(),'Brand')]
+]]></system-out>
+    <system-err><![CDATA[Sep 14, 2025 3:53:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="testVerifySubscriptionInCartPage" classname="testCases.VerifySubscriptionInCartPageTest" time="7.367">
+    <system-out><![CDATA[Browser Closed.
+Browser Initialized.
 Set Implicit Wait to 15 seconds.
 Navigated to URL: http://automationexercise.com
 Page title is 'Automation Exercise'
@@ -78,10 +502,42 @@ Clicked element By.id: subscribe
 Explicit wait for presence of By.xpath: //div[contains(text(),'You have been successfully subscribed!')]
 Got text from element By.xpath: //div[contains(text(),'You have been successfully subscribed!')]: You have been successfully subscribed!
 ]]></system-out>
-    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
-SLF4J(W): Defaulting to no-operation (NOP) logger implementation
-SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Sep 14, 2025 3:15:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Sep 14, 2025 3:53:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="testVerifySubscriptionInHomePage" classname="testCases.VerifySubscriptionInHomePageTest" time="7.372">
+    <system-out><![CDATA[Browser Closed.
+Browser Initialized.
+Set Implicit Wait to 15 seconds.
+Navigated to URL: http://automationexercise.com
+Page title is 'Automation Exercise'
+Scrolled to element By.xpath: //h2[contains(text(),'Subscription')] using Actions.scrollToElement().
+Scrolled to Subscription section
+Explicit wait for presence of By.xpath: //h2[contains(text(),'Subscription')]
+Got text from element By.xpath: //h2[contains(text(),'Subscription')]: SUBSCRIPTION
+Sent keys to element By.id: susbscribe_email
+Clicked element By.id: subscribe
+Explicit wait for presence of By.xpath: //div[contains(text(),'You have been successfully subscribed!')]
+Got text from element By.xpath: //div[contains(text(),'You have been successfully subscribed!')]: You have been successfully subscribed!
+]]></system-out>
+    <system-err><![CDATA[Sep 14, 2025 3:53:35 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="testVerifyTestCasesPage" classname="testCases.VerifyTestCasesPageTest" time="11.087">
+    <system-out><![CDATA[Browser Closed.
+Browser Initialized.
+Set Implicit Wait to 15 seconds.
+Navigated to URL: http://automationexercise.com
+Page title is 'Automation Exercise'
+Explicit wait for presence of By.cssSelector: a[href='/test_cases']
+Clicked element By.cssSelector: a[href='/test_cases']
+Clicked Test Cases button
+Current URL is 'https://automationexercise.com/test_cases'
+Page title is 'Automation Practice Website for UI Testing - Test Cases'
+]]></system-out>
+    <system-err><![CDATA[Sep 14, 2025 3:53:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
 ]]></system-err>
   </testcase>

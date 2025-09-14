@@ -14,5 +14,6 @@ packageOne_testng\ClassOne.class
 TestCases\VerifySubscriptionInCartPageTest.class
 TestCases\SearchProductTest.class
 TestCases\VerifyTestCasesPageTest.class
+TestCases\AddProductsInCartTest.class
 TestCases\RegisterUserTest.class
 TestCases\RegisterUserExistingEmailTest.class

@@ -11,6 +11,8 @@ import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Set;
 import java.util.function.Function;
+import org.openqa.selenium.WebDriver;
+
 
 public class SeleniumFrameWork {
     private WebDriver driver;
@@ -288,6 +290,12 @@ public void clickWithJS(By locator) {
     js.executeScript("arguments[0].click();", element);
     System.out.println("Clicked element with JavaScript: " + locator);
 }
+
+public WebDriver getDriver() {
+    return driver;
+}
+
+
 }
 
 
