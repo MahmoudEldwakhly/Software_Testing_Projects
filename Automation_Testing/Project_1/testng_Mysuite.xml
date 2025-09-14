@@ -139,10 +139,17 @@
     </test>
  -->
     
-                                      <!--  ViewCategoryProductsTest  -->
+                                      <!--  ViewCategoryProductsTest 
     <test name=" ViewCategoryProductsTest">
         <classes>
             <class name="testCases.ViewCategoryProductsTest"/>
+        </classes>
+    </test>
+ -->
+                                          <!--  ViewBrandProductsTest  -->
+    <test name=" ViewBrandProductsTest">
+        <classes>
+            <class name="testCases.ViewBrandProductsTest"/>
         </classes>
     </test>
     <!-- Whole TestCases package

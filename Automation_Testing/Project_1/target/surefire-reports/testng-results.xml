@@ -2,20 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-14T18:33:24 EEST" name="MySuite" finished-at="2025-09-14T18:33:39 EEST" duration-ms="15533">
+  <suite started-at="2025-09-14T18:45:48 EEST" name="MySuite" finished-at="2025-09-14T18:46:05 EEST" duration-ms="17120">
     <groups>
     </groups>
-    <test started-at="2025-09-14T18:33:24 EEST" name=" ViewCategoryProductsTest" finished-at="2025-09-14T18:33:39 EEST" duration-ms="15533">
-      <class name="testCases.ViewCategoryProductsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.ViewCategoryProductsTest@1ffe63b9]" started-at="2025-09-14T18:33:24 EEST" name="setUp" finished-at="2025-09-14T18:33:25 EEST" duration-ms="1114" status="PASS">
+    <test started-at="2025-09-14T18:45:48 EEST" name=" ViewBrandProductsTest" finished-at="2025-09-14T18:46:05 EEST" duration-ms="17120">
+      <class name="testCases.ViewBrandProductsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.ViewBrandProductsTest@12e61fe6]" started-at="2025-09-14T18:45:48 EEST" name="setUp" finished-at="2025-09-14T18:45:49 EEST" duration-ms="1100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testViewCategoryProducts()[pri:0, instance:testCases.ViewCategoryProductsTest@1ffe63b9]" started-at="2025-09-14T18:33:25 EEST" name="testViewCategoryProducts" finished-at="2025-09-14T18:33:39 EEST" duration-ms="14392" status="PASS">
+        <test-method signature="testViewAndSwitchBrands()[pri:0, instance:testCases.ViewBrandProductsTest@12e61fe6]" started-at="2025-09-14T18:45:49 EEST" name="testViewAndSwitchBrands" finished-at="2025-09-14T18:46:05 EEST" duration-ms="15836" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testViewCategoryProducts -->
-      </class> <!-- testCases.ViewCategoryProductsTest -->
-    </test> <!--  ViewCategoryProductsTest -->
+        </test-method> <!-- testViewAndSwitchBrands -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ViewBrandProductsTest@12e61fe6]" started-at="2025-09-14T18:46:05 EEST" name="tearDown" finished-at="2025-09-14T18:46:05 EEST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.ViewBrandProductsTest -->
+    </test> <!--  ViewBrandProductsTest -->
   </suite> <!-- MySuite -->
 </testng-results>

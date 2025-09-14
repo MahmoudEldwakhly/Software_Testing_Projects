@@ -20,6 +20,7 @@ packageOne_testng\ClassOne.class
 TestCases\VerifySubscriptionInCartPageTest.class
 TestCases\SearchProductTest.class
 TestCases\VerifyTestCasesPageTest.class
+TestCases\ViewBrandProductsTest.class
 TestCases\VerifyProductQuantityInCartTest.class
 TestCases\AddProductsInCartTest.class
 TestCases\RegisterUserExistingEmailTest.class
