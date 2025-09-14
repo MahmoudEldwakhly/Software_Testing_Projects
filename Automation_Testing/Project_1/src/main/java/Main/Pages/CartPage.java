@@ -22,6 +22,12 @@ public class CartPage {
     private By secondProductQuantityButton = By.cssSelector("#cart_info_table tbody tr:nth-of-type(2) td.cart_quantity button");
     private By secondProductTotal = By.cssSelector("#cart_info_table tbody tr:nth-of-type(2) td.cart_total");
 
+    // Delete (X) for first row
+    private By firstRowDelete = By.cssSelector("#cart_info_table tbody tr:nth-of-type(1) a.cart_quantity_delete");
+
+    // Cart empty message (robust text match)
+    private By cartEmptyMessage = By.xpath("//*[contains(text(),'Cart is empty')]");
+
     public CartPage(SeleniumFrameWork framework) {
         this.framework = framework;
     }
@@ -46,11 +52,11 @@ public class CartPage {
             framework.explicitWait(secondProductTotal, 10);
 
             String p1 = framework.getText(firstProductPrice);
-            String q1 = framework.getText(firstProductQuantityButton); // button text
+            String q1 = framework.getText(firstProductQuantityButton);
             String t1 = framework.getText(firstProductTotal);
 
             String p2 = framework.getText(secondProductPrice);
-            String q2 = framework.getText(secondProductQuantityButton); // button text
+            String q2 = framework.getText(secondProductQuantityButton);
             String t2 = framework.getText(secondProductTotal);
 
             return !p1.isEmpty() && !q1.isEmpty() && !t1.isEmpty()
@@ -94,14 +100,28 @@ public class CartPage {
         }
     }
 
+    // Click the X for the first product row
+    public void clickDeleteFirstProduct() {
+        framework.explicitWait(firstRowDelete, 10);
+        framework.click(firstRowDelete);
+    }
+
+    // Check if the empty-cart message appears
+    public boolean isCartEmpty() {
+        try {
+            framework.explicitWait(cartEmptyMessage, 10);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
     private int parseMoney(String txt) {
-        // Example: "Rs. 500" -> 500
         String digits = txt.replaceAll("[^0-9]", "");
         return digits.isEmpty() ? 0 : Integer.parseInt(digits);
     }
 
     private int parseIntSafe(String txtCell) {
-        // Extract digits from any cell/button text
         String digits = txtCell.replaceAll("[^0-9]", "");
         return digits.isEmpty() ? 0 : Integer.parseInt(digits);
     }

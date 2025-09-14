@@ -123,10 +123,18 @@
     </test>
 -->
     
-                                <!--  PlaceOrderLoginBeforeCheckoutTest  -->
+                                <!--  PlaceOrderLoginBeforeCheckoutTest  
     <test name=" PlaceOrderLoginBeforeCheckoutTest">
         <classes>
             <class name="testCases.PlaceOrderLoginBeforeCheckoutTest"/>
+        </classes>
+    </test>
+-->
+    
+                                  <!--  RemoveProductsFromCartTest  -->
+    <test name=" RemoveProductsFromCartTest">
+        <classes>
+            <class name="testCases.RemoveProductsFromCartTest"/>
         </classes>
     </test>
     <!-- Whole TestCases package
