@@ -13,6 +13,7 @@ public class HomePage {
     private By logoutButton = By.cssSelector("a[href='/logout']");
     private By testCasesButton = By.cssSelector("a[href='/test_cases']");
     private By productsButton = By.cssSelector("a[href='/products']");
+    private By cartButton = By.cssSelector("a[href='/view_cart']");
     
     // Subscription section
     private By subscriptionText = By.xpath("//h2[contains(text(),'Subscription')]");
@@ -67,6 +68,12 @@ public class HomePage {
         framework.explicitWait(productsButton, 10);
         framework.click(productsButton);
         System.out.println("Clicked Products button");
+    }
+
+    public void clickCart() {
+        framework.explicitWait(cartButton, 10);
+        framework.click(cartButton);
+        System.out.println("Clicked Cart button");
     }
 
     public void scrollToSubscription() {

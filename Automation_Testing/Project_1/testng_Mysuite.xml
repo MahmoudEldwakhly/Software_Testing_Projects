@@ -80,10 +80,17 @@
         </classes>
     </test>
      -->
-               <!-- VerifySubscriptionInHomePageTest -->
+               <!-- VerifySubscriptionInHomePageTest 
     <test name="VerifySubscriptionInHomePageTest">
         <classes>
             <class name="testCases.VerifySubscriptionInHomePageTest"/>
+        </classes>
+    </test>
+    -->
+                   <!-- VerifySubscriptionInHomePageTest -->
+    <test name="VerifySubscriptionInCartPageTest">
+        <classes>
+            <class name="testCases.VerifySubscriptionInCartPageTest"/>
         </classes>
     </test>
     <!-- Whole TestCases package 
