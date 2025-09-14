@@ -146,12 +146,21 @@
         </classes>
     </test>
  -->
-                                          <!--  ViewBrandProductsTest  -->
+                                          <!--  ViewBrandProductsTest  
     <test name=" ViewBrandProductsTest">
         <classes>
             <class name="testCases.ViewBrandProductsTest"/>
         </classes>
     </test>
+   --> 
+                                             <!--  SearchProductsVerifyCartAfterLoginTest  -->  
+    <test name=" SearchProductsVerifyCartAfterLoginTest">
+        <classes>
+            <class name="testCases.SearchProductsVerifyCartAfterLoginTest"/>
+        </classes>
+    </test>
+  
+   
     <!-- Whole TestCases package
     <test name="TestCases">
         <packages>

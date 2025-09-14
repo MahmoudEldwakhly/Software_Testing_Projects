@@ -25,13 +25,20 @@ public class CartPage {
     // Delete (X) for first row
     private By firstRowDelete = By.cssSelector("#cart_info_table tbody tr:nth-of-type(1) a.cart_quantity_delete");
 
-    // Cart empty message (robust text match)
+    // Cart empty message
     private By cartEmptyMessage = By.xpath("//*[contains(text(),'Cart is empty')]");
+
+    // Generic row marker and nth-row helper (added)
+    private By anyCartRowDelete = By.cssSelector("#cart_info_table tbody tr a.cart_quantity_delete");
+    private By cartRowAt(int index) {
+        return By.cssSelector("#cart_info_table tbody tr:nth-of-type(" + index + ")");
+    }
 
     public CartPage(SeleniumFrameWork framework) {
         this.framework = framework;
     }
 
+    // Verify two products are present
     public boolean areTwoProductsInCart() {
         try {
             framework.explicitWait(firstRow, 10);
@@ -42,6 +49,7 @@ public class CartPage {
         }
     }
 
+    // Verify details cells exist for both rows
     public boolean areDetailsPresentForBoth() {
         try {
             framework.explicitWait(firstProductPrice, 10);
@@ -66,6 +74,7 @@ public class CartPage {
         }
     }
 
+    // Verify line totals math
     public boolean lineTotalsAreCorrect() {
         try {
             int price1 = parseMoney(framework.getText(firstProductPrice));
@@ -91,6 +100,7 @@ public class CartPage {
         }
     }
 
+    // Read quantity for first product (button text)
     public String getFirstProductQuantity() {
         try {
             framework.explicitWait(firstProductQuantityButton, 10);
@@ -114,6 +124,38 @@ public class CartPage {
         } catch (Exception e) {
             return false;
         }
+    }
+
+    // Check if at least one cart row is present (added)
+    public boolean isAnyCartRowPresent() {
+        try {
+            framework.explicitWait(anyCartRowDelete, 5);
+            return true;
+        } catch (Exception e) {
+            try {
+                framework.explicitWait(firstRow, 3);
+                return true;
+            } catch (Exception ignore) {}
+            try {
+                framework.explicitWait(secondRow, 3);
+                return true;
+            } catch (Exception ignore) {}
+            return false;
+        }
+    }
+
+    // Count visible cart rows by probing sequentially (added)
+    public int countItemsInCart() {
+        int count = 0;
+        for (int i = 1; i <= 20; i++) {
+            try {
+                framework.explicitWait(cartRowAt(i), 2);
+                count++;
+            } catch (Exception e) {
+                break;
+            }
+        }
+        return count;
     }
 
     private int parseMoney(String txt) {

@@ -9,6 +9,7 @@ TestCases\RemoveProductsFromCartTest.class
 TestCases\LoginUserIncorrectTest.class
 TestCases\ContactUsTest.class
 TestCases\LogoutUserTest.class
+TestCases\SearchProductsVerifyCartAfterLoginTest.class
 TestCases\RegisterUserTest.class
 TestCases\LoginUserTest.class
 packageOne_testng\ClassThree.class

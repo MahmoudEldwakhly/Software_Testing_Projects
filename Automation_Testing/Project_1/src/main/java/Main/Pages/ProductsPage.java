@@ -6,24 +6,24 @@ import org.openqa.selenium.By;
 public class ProductsPage {
     private SeleniumFrameWork framework;
 
-    // Locators
+    // ===== Existing locators you already had =====
     private By productsHeader = By.xpath("//h2[contains(text(),'All Products')]");
     private By productsList = By.cssSelector(".features_items");
     private By firstProductView = By.cssSelector("a[href*='/product_details/1']");
 
-    // Search locators
+    // Search
     private By searchInput = By.cssSelector("input#search_product");
     private By searchButton = By.cssSelector("button#submit_search");
     private By searchedProductsHeader = By.xpath("//h2[contains(text(),'Searched Products')]");
     private By searchedProducts = By.cssSelector(".features_items .product-image-wrapper");
 
-    // Add to Cart locators
+    // Add to Cart (generic)
     private By firstProductAddToCart = By.xpath("(//a[contains(text(),'Add to cart')])[1]");
     private By secondProductAddToCart = By.xpath("(//a[contains(text(),'Add to cart')])[3]");
     private By continueShoppingButton = By.cssSelector(".btn.btn-success.close-modal.btn-block");
     private By viewCartButton = By.cssSelector("a[href='/view_cart']");
 
-    // Product detail page locators
+    // Product detail page bits
     private By productDetail = By.cssSelector(".product-information");
     private By productName = By.cssSelector(".product-information h2");
     private By productCategory = By.xpath("//p[contains(text(),'Category')]");
@@ -32,116 +32,84 @@ public class ProductsPage {
     private By productCondition = By.xpath("//b[contains(text(),'Condition')]");
     private By productBrand = By.xpath("//b[contains(text(),'Brand')]");
 
-    // Category sidebar locators (from TC18 additions)
+    // Category sidebar (TC18)
     private By leftSidebarContainer = By.cssSelector(".left-sidebar .panel-group");
     private By womenToggle = By.cssSelector("a[href='#Women']");
     private By menToggle = By.cssSelector("a[href='#Men']");
     private By categoryHeader = By.cssSelector(".features_items h2.title.text-center");
 
-    // Brand sidebar locators (new for TC19)
+    // Brands sidebar (TC19)
     private By brandsBox = By.cssSelector(".brands_products");
     private By brandsTitle = By.xpath("//div[@class='brands_products']//h2");
 
-    public ProductsPage(SeleniumFrameWork framework) {
-        this.framework = framework;
-    }
+    public ProductsPage(SeleniumFrameWork framework) { this.framework = framework; }
 
-    // Verify ALL PRODUCTS page is visible
+    // ===== Existing public APIs you already used =====
     public boolean isAllProductsPageVisible() {
         try {
             framework.explicitWait(productsHeader, 10);
             String text = framework.getText(productsHeader);
-            return text.contains("ALL PRODUCTS");
-        } catch (Exception e) {
-            return false;
-        }
+            return text != null && text.contains("ALL PRODUCTS");
+        } catch (Exception e) { return false; }
     }
 
-    // Verify product list is visible
     public boolean isProductsListVisible() {
-        try {
-            framework.explicitWait(productsList, 10);
-            return true;
-        } catch (Exception e) {
-            return false;
-        }
+        try { framework.explicitWait(productsList, 10); return true; }
+        catch (Exception e) { return false; }
     }
 
-    // Click on first product's "View Product"
     public void clickFirstProductView() {
-        try {
-            framework.explicitWait(firstProductView, 10);
-            framework.clickWithJS(firstProductView);
-        } catch (Exception e) {
-            System.out.println("Failed to click first product view: " + e.getMessage());
-            throw e;
-        }
+        framework.explicitWait(firstProductView, 10);
+        framework.clickWithJS(firstProductView);
     }
 
-    // Search for a product
     public void searchProduct(String productName) {
         framework.explicitWait(searchInput, 10);
-        framework.sendKeys(searchInput, productName);
+        framework.clearAndSendKeys(searchInput, productName);
         framework.click(searchButton);
     }
 
-    // Verify "SEARCHED PRODUCTS" header
     public boolean isSearchedProductsHeaderVisible() {
         try {
             framework.explicitWait(searchedProductsHeader, 10);
             String text = framework.getText(searchedProductsHeader);
-            return text.contains("SEARCHED PRODUCTS");
-        } catch (Exception e) {
-            return false;
-        }
+            return text != null && text.contains("SEARCHED PRODUCTS");
+        } catch (Exception e) { return false; }
     }
 
-    // Verify searched products are visible (no direct driver usage)
     public boolean areSearchedProductsVisible() {
         try {
             framework.explicitWait(searchedProducts, 10);
             String text = framework.getText(searchedProducts);
             return text != null && !text.isEmpty();
-        } catch (Exception e) {
-            return false;
-        }
+        } catch (Exception e) { return false; }
     }
 
-    // Add first product to cart
     public void addFirstProductToCart() {
         framework.explicitWait(firstProductAddToCart, 10);
         framework.clickWithJS(firstProductAddToCart);
     }
 
-    // Add second product to cart
     public void addSecondProductToCart() {
         framework.explicitWait(secondProductAddToCart, 10);
         framework.clickWithJS(secondProductAddToCart);
     }
 
-    // Click "Continue Shopping"
     public void clickContinueShopping() {
         framework.explicitWait(continueShoppingButton, 10);
         framework.click(continueShoppingButton);
     }
 
-    // Click "View Cart"
     public void clickViewCart() {
         framework.explicitWait(viewCartButton, 10);
         framework.click(viewCartButton);
     }
 
-    // Verify product detail page is visible
     public boolean isProductDetailVisible() {
-        try {
-            framework.explicitWait(productDetail, 10);
-            return true;
-        } catch (Exception e) {
-            return false;
-        }
+        try { framework.explicitWait(productDetail, 10); return true; }
+        catch (Exception e) { return false; }
     }
 
-    // Verify all product details are visible
     public boolean areAllDetailsVisible() {
         try {
             framework.explicitWait(productName, 10);
@@ -151,19 +119,13 @@ public class ProductsPage {
             framework.explicitWait(productCondition, 10);
             framework.explicitWait(productBrand, 10);
             return true;
-        } catch (Exception e) {
-            return false;
-        }
+        } catch (Exception e) { return false; }
     }
 
-    // Categories sidebar (TC18)
+    // ===== Categories (TC18) =====
     public boolean isCategoriesSidebarVisible() {
-        try {
-            framework.explicitWait(leftSidebarContainer, 10);
-            return true;
-        } catch (Exception e) {
-            return false;
-        }
+        try { framework.explicitWait(leftSidebarContainer, 10); return true; }
+        catch (Exception e) { return false; }
     }
 
     public void expandWomenCategory() {
@@ -202,16 +164,14 @@ public class ProductsPage {
         return getCategoryHeaderUpper().contains(expectedUpper.toUpperCase());
     }
 
-    // Brands sidebar (TC19)
+    // ===== Brands (TC19) =====
     public boolean isBrandsSidebarVisible() {
         try {
             framework.explicitWait(brandsBox, 10);
             framework.explicitWait(brandsTitle, 10);
             String t = framework.getText(brandsTitle);
             return t != null && t.trim().toUpperCase().contains("BRANDS");
-        } catch (Exception e) {
-            return false;
-        }
+        } catch (Exception e) { return false; }
     }
 
     public void clickBrand(String brandName) {
@@ -232,8 +192,67 @@ public class ProductsPage {
             framework.explicitWait(searchedProducts, 10);
             String text = framework.getText(searchedProducts);
             return text != null && !text.isEmpty();
-        } catch (Exception e) {
-            return false;
+        } catch (Exception e) { return false; }
+    }
+
+    // ======== NEW: helpers that add ONLY items from current SEARCH RESULTS grid ========
+
+    // Nth result card inside the SEARCHED PRODUCTS grid
+    private By searchCardAt(int index1) {
+        return By.xpath("(//div[@class='features_items']//div[@class='product-image-wrapper'])[" + index1 + "]");
+    }
+    // The ALWAYS-VISIBLE add-to-cart inside the card (no overlay)
+    private By addToCartVisibleInCard(int index1) {
+        return By.xpath("(//div[@class='features_items']//div[@class='product-image-wrapper'])[" + index1 + "]//div[contains(@class,'productinfo')]//a[contains(text(),'Add to cart')]");
+    }
+    // Overlay add-to-cart in the same card (fallback)
+    private By addToCartOverlayInCard(int index1) {
+        return By.xpath("(//div[@class='features_items']//div[@class='product-image-wrapper'])[" + index1 + "]//div[contains(@class,'product-overlay')]//a[contains(text(),'Add to cart')]");
+    }
+
+    /** Counts how many product cards are currently rendered in the SEARCHED PRODUCTS grid. */
+    public int getSearchedResultsCount() {
+        int count = 0;
+        for (int i = 1; i <= 30; i++) {
+            try {
+                framework.explicitWait(searchCardAt(i), 2);
+                count++;
+            } catch (Exception e) {
+                break;
+            }
         }
+        return count;
+    }
+
+    /**
+     * Adds ALL items from the current SEARCHED PRODUCTS grid (first page only).
+     * Returns how many add attempts succeeded (modal handled inside).
+     * No page refreshes, no re-search; strictly within the visible grid.
+     */
+    public int addAllSearchedResultsToCart() {
+        int total = getSearchedResultsCount();
+        int added = 0;
+        for (int i = 1; i <= total; i++) {
+            try {
+                // Scroll card into view
+                framework.scrollToElement(searchCardAt(i));
+                // Prefer the visible button in productinfo
+                try {
+                    framework.explicitWait(addToCartVisibleInCard(i), 5);
+                    framework.clickWithJS(addToCartVisibleInCard(i));
+                } catch (Exception notVisible) {
+                    // Fallback: overlay button (if site requires hover)
+                    framework.explicitWait(addToCartOverlayInCard(i), 5);
+                    framework.clickWithJS(addToCartOverlayInCard(i));
+                }
+                // Close modal
+                framework.explicitWait(continueShoppingButton, 10);
+                framework.click(continueShoppingButton);
+                added++;
+            } catch (Exception e) {
+                System.out.println("Add-to-cart failed for search card #" + i + ": " + e.getMessage());
+            }
+        }
+        return added;
     }
 }
