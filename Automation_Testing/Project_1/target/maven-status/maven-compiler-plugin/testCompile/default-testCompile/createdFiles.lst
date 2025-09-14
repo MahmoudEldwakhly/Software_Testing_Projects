@@ -22,6 +22,7 @@ packageTwo_testng\ClassFive.class
 TestCases\AddToCartFromRecommendedItemsTest.class
 packageOne_testng\ClassOne.class
 TestCases\VerifySubscriptionInCartPageTest.class
+TestCases\DownloadInvoiceAfterPurchaseTest.class
 TestCases\SearchProductTest.class
 TestCases\VerifyTestCasesPageTest.class
 TestCases\ViewBrandProductsTest.class

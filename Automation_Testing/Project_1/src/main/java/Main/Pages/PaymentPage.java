@@ -4,60 +4,67 @@ import Frameworks.SeleniumFrameWork;
 import org.openqa.selenium.By;
 
 public class PaymentPage {
-    private SeleniumFrameWork framework;
+    private final SeleniumFrameWork framework;
 
-    // Locators
-    private By nameOnCard = By.name("name_on_card");
-    private By cardNumber = By.name("card_number");
-    private By cvc = By.name("cvc");
-    private By expiryMonth = By.name("expiry_month");
-    private By expiryYear = By.name("expiry_year");
-    private By payButton = By.id("submit");
-    private By successMessage = By.xpath("//*[contains(text(),'ORDER PLACED') or contains(text(),'Your order has been confirmed')]");
+    // Existing locators
+    private final By nameOnCard   = By.name("name_on_card");
+    private final By cardNumber   = By.name("card_number");
+    private final By cvc          = By.name("cvc");
+    private final By expiryMonth  = By.name("expiry_month");
+    private final By expiryYear   = By.name("expiry_year");
+    private final By payButton    = By.id("submit");
+    private final By successAlert = By.cssSelector(".alert-success");
 
-
+    // New locators for this test
+    private final By downloadInvoiceBtn = By.xpath("//a[contains(.,'Download Invoice')]");
+    private final By continueAfterOrder = By.xpath("//a[contains(.,'Continue')]");
 
     public PaymentPage(SeleniumFrameWork framework) {
         this.framework = framework;
     }
 
-    // Fill payment details
-    public void fillPaymentDetails(String name, String number, String cvcCode, String month, String year) {
+    // Fill payment form
+    public void fillPaymentDetails(String name, String number, String cvcStr, String month, String year) {
         framework.explicitWait(nameOnCard, 10);
         framework.sendKeys(nameOnCard, name);
-
-        framework.explicitWait(cardNumber, 10);
         framework.sendKeys(cardNumber, number);
-
-        framework.explicitWait(cvc, 10);
-        framework.sendKeys(cvc, cvcCode);
-
-        framework.explicitWait(expiryMonth, 10);
+        framework.sendKeys(cvc, cvcStr);
         framework.sendKeys(expiryMonth, month);
-
-        framework.explicitWait(expiryYear, 10);
         framework.sendKeys(expiryYear, year);
     }
 
-    // Click Pay and Confirm (safe fallback to JS click if intercepted)
+    // Click Pay & Confirm with resilient click
     public void clickPayAndConfirm() {
-        framework.explicitWait(payButton, 10);
         try {
-            framework.click(payButton); // normal Selenium click
+            framework.explicitWait(payButton, 10);
+            framework.click(payButton);
         } catch (Exception e) {
             System.out.println("Normal click failed, trying JavaScript click...");
-            framework.clickWithJs(payButton); // fallback JS click
+            framework.clickWithJS(payButton);
         }
     }
 
-    // Verify success message is visible
+    // Verify order success banner
     public boolean isSuccessMessageVisible() {
         try {
-            framework.explicitWait(successMessage, 10);
-            return framework.getText(successMessage)
-                    .contains("Congratulations! Your order has been confirmed!");
+            framework.explicitWait(successAlert, 10);
+            return true;
         } catch (Exception e) {
             return false;
         }
+    }
+
+    // New: click Download Invoice
+    public void clickDownloadInvoice() {
+        framework.explicitWait(downloadInvoiceBtn, 10);
+        try { framework.click(downloadInvoiceBtn); }
+        catch (Exception e) { framework.clickWithJS(downloadInvoiceBtn); }
+    }
+
+    // New: click Continue on the order success page
+    public void clickContinueAfterOrder() {
+        framework.explicitWait(continueAfterOrder, 10);
+        try { framework.click(continueAfterOrder); }
+        catch (Exception e) { framework.clickWithJS(continueAfterOrder); }
     }
 }

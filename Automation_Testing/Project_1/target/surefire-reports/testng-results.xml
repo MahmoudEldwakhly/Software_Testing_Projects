@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-14T21:42:04 EEST" name="MySuite" finished-at="2025-09-14T21:42:42 EEST" duration-ms="38235">
+  <suite started-at="2025-09-14T22:01:57 EEST" name="MySuite" finished-at="2025-09-14T22:02:43 EEST" duration-ms="45390">
     <groups>
     </groups>
-    <test started-at="2025-09-14T21:42:04 EEST" name=" VerifyAddressDetailsInCheckoutTest" finished-at="2025-09-14T21:42:42 EEST" duration-ms="38235">
-      <class name="testCases.VerifyAddressDetailsInCheckoutTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.VerifyAddressDetailsInCheckoutTest@12e61fe6]" started-at="2025-09-14T21:42:04 EEST" name="setUp" finished-at="2025-09-14T21:42:05 EEST" duration-ms="1182" status="PASS">
+    <test started-at="2025-09-14T22:01:57 EEST" name=" DownloadInvoiceAfterPurchaseTest" finished-at="2025-09-14T22:02:43 EEST" duration-ms="45390">
+      <class name="testCases.DownloadInvoiceAfterPurchaseTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.DownloadInvoiceAfterPurchaseTest@7ee955a8]" started-at="2025-09-14T22:01:57 EEST" name="setUp" finished-at="2025-09-14T22:01:59 EEST" duration-ms="1155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testVerifyAddressDetailsInCheckout()[pri:0, instance:testCases.VerifyAddressDetailsInCheckoutTest@12e61fe6]" started-at="2025-09-14T21:42:05 EEST" name="testVerifyAddressDetailsInCheckout" finished-at="2025-09-14T21:42:42 EEST" duration-ms="36820" status="PASS">
+        <test-method signature="testDownloadInvoiceAfterPurchase()[pri:0, instance:testCases.DownloadInvoiceAfterPurchaseTest@7ee955a8]" started-at="2025-09-14T22:01:59 EEST" name="testDownloadInvoiceAfterPurchase" finished-at="2025-09-14T22:02:43 EEST" duration-ms="43991" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testVerifyAddressDetailsInCheckout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.VerifyAddressDetailsInCheckoutTest@12e61fe6]" started-at="2025-09-14T21:42:42 EEST" name="tearDown" finished-at="2025-09-14T21:42:42 EEST" duration-ms="203" status="PASS">
+        </test-method> <!-- testDownloadInvoiceAfterPurchase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.DownloadInvoiceAfterPurchaseTest@7ee955a8]" started-at="2025-09-14T22:02:43 EEST" name="tearDown" finished-at="2025-09-14T22:02:43 EEST" duration-ms="218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.VerifyAddressDetailsInCheckoutTest -->
-    </test> <!--  VerifyAddressDetailsInCheckoutTest -->
+      </class> <!-- testCases.DownloadInvoiceAfterPurchaseTest -->
+    </test> <!--  DownloadInvoiceAfterPurchaseTest -->
   </suite> <!-- MySuite -->
 </testng-results>

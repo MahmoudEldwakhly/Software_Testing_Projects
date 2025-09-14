@@ -175,12 +175,21 @@
     </test>
 -->  
   
-        <!--  VerifyAddressDetailsInCheckoutTest  -->  
+        <!--  VerifyAddressDetailsInCheckoutTest   
     <test name=" VerifyAddressDetailsInCheckoutTest">
         <classes>
             <class name="testCases.VerifyAddressDetailsInCheckoutTest"/>
         </classes>
     </test>
+ -->
+    
+            <!--  DownloadInvoiceAfterPurchaseTest  -->  
+    <test name=" DownloadInvoiceAfterPurchaseTest">
+        <classes>
+            <class name="testCases.DownloadInvoiceAfterPurchaseTest"/>
+        </classes>
+    </test>
+  
   
    
     <!-- Whole TestCases package
