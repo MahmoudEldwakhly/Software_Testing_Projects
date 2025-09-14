@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-14T06:18:05 EEST" name="MySuite" finished-at="2025-09-14T06:18:40 EEST" duration-ms="35184">
+  <suite started-at="2025-09-14T06:28:19 EEST" name="MySuite" finished-at="2025-09-14T06:29:18 EEST" duration-ms="58309">
     <groups>
     </groups>
-    <test started-at="2025-09-14T06:18:05 EEST" name="testPlaceOrderRegisterBeforeCheckout" finished-at="2025-09-14T06:18:40 EEST" duration-ms="35184">
-      <class name="testCases.PlaceOrderRegisterBeforeCheckoutTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.PlaceOrderRegisterBeforeCheckoutTest@12e61fe6]" started-at="2025-09-14T06:18:05 EEST" name="setUp" finished-at="2025-09-14T06:18:11 EEST" duration-ms="5626" status="PASS">
+    <test started-at="2025-09-14T06:28:19 EEST" name=" PlaceOrderLoginBeforeCheckoutTest" finished-at="2025-09-14T06:29:18 EEST" duration-ms="58309">
+      <class name="testCases.PlaceOrderLoginBeforeCheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.PlaceOrderLoginBeforeCheckoutTest@12e61fe6]" started-at="2025-09-14T06:28:19 EEST" name="setUp" finished-at="2025-09-14T06:28:20 EEST" duration-ms="1183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testPlaceOrderRegisterBeforeCheckout()[pri:0, instance:testCases.PlaceOrderRegisterBeforeCheckoutTest@12e61fe6]" started-at="2025-09-14T06:18:11 EEST" name="testPlaceOrderRegisterBeforeCheckout" finished-at="2025-09-14T06:18:40 EEST" duration-ms="29301" status="PASS">
+        <test-method signature="testPlaceOrderLoginBeforeCheckout()[pri:0, instance:testCases.PlaceOrderLoginBeforeCheckoutTest@12e61fe6]" started-at="2025-09-14T06:28:20 EEST" name="testPlaceOrderLoginBeforeCheckout" finished-at="2025-09-14T06:29:17 EEST" duration-ms="56920" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPlaceOrderRegisterBeforeCheckout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.PlaceOrderRegisterBeforeCheckoutTest@12e61fe6]" started-at="2025-09-14T06:18:40 EEST" name="tearDown" finished-at="2025-09-14T06:18:40 EEST" duration-ms="230" status="PASS">
+        </test-method> <!-- testPlaceOrderLoginBeforeCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.PlaceOrderLoginBeforeCheckoutTest@12e61fe6]" started-at="2025-09-14T06:29:17 EEST" name="tearDown" finished-at="2025-09-14T06:29:18 EEST" duration-ms="177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.PlaceOrderRegisterBeforeCheckoutTest -->
-    </test> <!-- testPlaceOrderRegisterBeforeCheckout -->
+      </class> <!-- testCases.PlaceOrderLoginBeforeCheckoutTest -->
+    </test> <!--  PlaceOrderLoginBeforeCheckoutTest -->
   </suite> <!-- MySuite -->
 </testng-results>

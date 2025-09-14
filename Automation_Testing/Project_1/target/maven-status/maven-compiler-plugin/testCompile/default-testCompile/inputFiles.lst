@@ -12,6 +12,7 @@ D:\Courses & Trainings\Software Testing Diploma\Projects\Ex1\src\test\java\TestC
 D:\Courses & Trainings\Software Testing Diploma\Projects\Ex1\src\test\java\TestCases\LoginUserIncorrectTest.java
 D:\Courses & Trainings\Software Testing Diploma\Projects\Ex1\src\test\java\TestCases\LoginUserTest.java
 D:\Courses & Trainings\Software Testing Diploma\Projects\Ex1\src\test\java\TestCases\LogoutUserTest.java
+D:\Courses & Trainings\Software Testing Diploma\Projects\Ex1\src\test\java\TestCases\PlaceOrderLoginBeforeCheckoutTest.java
 D:\Courses & Trainings\Software Testing Diploma\Projects\Ex1\src\test\java\TestCases\PlaceOrderRegisterBeforeCheckoutTest.java
 D:\Courses & Trainings\Software Testing Diploma\Projects\Ex1\src\test\java\TestCases\PlaceOrderRegisterWhileCheckoutTest.java
 D:\Courses & Trainings\Software Testing Diploma\Projects\Ex1\src\test\java\TestCases\RegisterUserExistingEmailTest.java

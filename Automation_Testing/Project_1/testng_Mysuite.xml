@@ -115,10 +115,18 @@
         </classes>
     </test>
 -->
-                            <!-- testPlaceOrderRegisterBeforeCheckout  -->
+                            <!-- testPlaceOrderRegisterBeforeCheckout  
     <test name="testPlaceOrderRegisterBeforeCheckout">
         <classes>
             <class name="testCases.PlaceOrderRegisterBeforeCheckoutTest"/>
+        </classes>
+    </test>
+-->
+    
+                                <!--  PlaceOrderLoginBeforeCheckoutTest  -->
+    <test name=" PlaceOrderLoginBeforeCheckoutTest">
+        <classes>
+            <class name="testCases.PlaceOrderLoginBeforeCheckoutTest"/>
         </classes>
     </test>
     <!-- Whole TestCases package

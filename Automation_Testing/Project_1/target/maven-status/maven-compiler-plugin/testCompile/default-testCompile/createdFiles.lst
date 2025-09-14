@@ -9,6 +9,7 @@ packageTwo_testng\ClassSix.class
 packageOne_testng\ClassTwo.class
 packageTwo_testng\ClassFour.class
 packageTwo_testng\ClassFive.class
+TestCases\PlaceOrderLoginBeforeCheckoutTest.class
 TestCases\LoginUserIncorrectTest.class
 TestCases\ContactUsTest.class
 TestCases\LogoutUserTest.class
