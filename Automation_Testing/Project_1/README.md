@@ -17,11 +17,7 @@ A comprehensive end-to-end test automation suite for [AutomationExercise.com](ht
 - [Framework Design](#-framework-design)
 - [Test Cases](#-test-cases)
 - [Installation & Setup](#-installation--setup)
-- [Running Tests](#-running-tests)
-- [Test Reports](#-test-reports)
-- [Key Features](#-key-features)
-- [Common Solutions](#-common-solutions)
-- [Contributing](#-contributing)
+
 
 ## Overview
 
