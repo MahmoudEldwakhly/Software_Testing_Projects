@@ -1,0 +1,7 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="main suite">
+    <suite-files>
+        <suite-file path="testng-valid-suite.xml"></suite-file>
+        <suite-file path="testng-invalid-suite.xml"></suite-file>
+    </suite-files>
+</suite>

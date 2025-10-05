@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="InvalidSuite">
+    <test name="Invalid Username Test">
+        <classes>
+            <class name="Login_Tests">
+                <methods>
+                    <include name="invalidUserName_TC1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Invalid Password Test">
+        <classes>
+            <class name="Login_Tests">
+                <methods>
+                    <include name="invalidPassword_TC1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

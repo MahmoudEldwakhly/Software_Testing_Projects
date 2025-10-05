@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-27T22:39:59 EEST" name="main suite" finished-at="2025-08-27T22:39:59 EEST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- main suite -->
+  <suite started-at="2025-08-27T22:39:47 EEST" name="ValidSuite" finished-at="2025-08-27T22:39:52 EEST" duration-ms="5055">
+    <groups>
+    </groups>
+    <test started-at="2025-08-27T22:39:47 EEST" name="ValidTest" finished-at="2025-08-27T22:39:52 EEST" duration-ms="5055">
+      <class name="Login_Tests">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:Login_Tests@56528192]" started-at="2025-08-27T22:39:47 EEST" name="setUpMethod" finished-at="2025-08-27T22:39:51 EEST" duration-ms="4344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="Valid_TC()[pri:0, instance:Login_Tests@56528192]" started-at="2025-08-27T22:39:51 EEST" name="Valid_TC" finished-at="2025-08-27T22:39:52 EEST" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Valid_TC -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:Login_Tests@56528192]" started-at="2025-08-27T22:39:52 EEST" name="tearDownMethod" finished-at="2025-08-27T22:39:52 EEST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- Login_Tests -->
+    </test> <!-- ValidTest -->
+  </suite> <!-- ValidSuite -->
+  <suite started-at="2025-08-27T22:39:52 EEST" name="InvalidSuite" finished-at="2025-08-27T22:39:59 EEST" duration-ms="6845">
+    <groups>
+    </groups>
+    <test started-at="2025-08-27T22:39:52 EEST" name="Invalid Username Test" finished-at="2025-08-27T22:39:56 EEST" duration-ms="3487">
+      <class name="Login_Tests">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:Login_Tests@5e82df6a]" started-at="2025-08-27T22:39:52 EEST" name="setUpMethod" finished-at="2025-08-27T22:39:55 EEST" duration-ms="2750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="invalidUserName_TC1()[pri:0, instance:Login_Tests@5e82df6a]" started-at="2025-08-27T22:39:55 EEST" name="invalidUserName_TC1" finished-at="2025-08-27T22:39:55 EEST" duration-ms="579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserName_TC1 -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:Login_Tests@5e82df6a]" started-at="2025-08-27T22:39:55 EEST" name="tearDownMethod" finished-at="2025-08-27T22:39:56 EEST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- Login_Tests -->
+    </test> <!-- Invalid Username Test -->
+    <test started-at="2025-08-27T22:39:56 EEST" name="Invalid Password Test" finished-at="2025-08-27T22:39:59 EEST" duration-ms="3355">
+      <class name="Login_Tests">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:Login_Tests@636be97c]" started-at="2025-08-27T22:39:56 EEST" name="setUpMethod" finished-at="2025-08-27T22:39:58 EEST" duration-ms="2723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="invalidPassword_TC1()[pri:0, instance:Login_Tests@636be97c]" started-at="2025-08-27T22:39:58 EEST" name="invalidPassword_TC1" finished-at="2025-08-27T22:39:59 EEST" duration-ms="517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword_TC1 -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:Login_Tests@636be97c]" started-at="2025-08-27T22:39:59 EEST" name="tearDownMethod" finished-at="2025-08-27T22:39:59 EEST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- Login_Tests -->
+    </test> <!-- Invalid Password Test -->
+  </suite> <!-- InvalidSuite -->
+</testng-results>

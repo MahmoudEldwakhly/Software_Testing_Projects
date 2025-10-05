@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite2">
+    <test name="TestGroupA_Suite2">
+        <groups>
+            <run>
+                <include name="GroupA"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="suite2"/>
+        </packages>
+    </test>
+    <test name="TestGroupB_Suite2">
+        <groups>
+            <run>
+                <include name="GroupB"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="suite2"/>
+        </packages>
+    </test>
+</suite>

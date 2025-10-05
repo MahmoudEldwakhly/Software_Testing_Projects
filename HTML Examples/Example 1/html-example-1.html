@@ -1,0 +1,41 @@
+<!-- Specifies that this is an HTML 5 Document-->
+<!DOCTYPE HTML>
+<!-- Tells the browser the doucment is in English-->
+<html lang="en"> 
+    <!-- Stores all of the meta-data -->
+    <head>
+        <!-- tells the browser the tab title should be Example 1-->
+        <title>Example 1</title>
+    </head>
+    <body>
+        <h1>Contact Us</h1>
+        <p>Regardless of whether you want to give us feedback, just get in touch, or file a complaint please contact us through this form</p>
+        <form>
+            <!-- 
+                label and input are inline attributes
+                and we don't want to show all form 
+                label's and inputs on the same line.
+                as such we put each one on in a block element. 
+            -->
+            <div> 
+                <label for="name">Name</label>
+            </div>
+            <div>
+                <!-- Use the placeholder attribute to put in text that shows when the input is blank-->
+                <input type="text" name="name" placeholder="John Doe"/>
+            </div>
+            <div> 
+                <label for="phonenum">Phone Number</label>
+            </div>
+            <div> 
+                <input type="tel" name="phonenum" />
+            </div>
+            <div> 
+                <label for="msg">Your Message</label>
+            </div>
+            <div> 
+                <textarea name="msg"></textarea>
+            </div>
+        </form>
+    </body>
+</html>

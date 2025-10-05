@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ValidSuite">
+    <test name="ValidTest">
+        <classes>
+            <class name="Login_Tests">
+                <methods>
+                    <include name="Valid_TC"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
