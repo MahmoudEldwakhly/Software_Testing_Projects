@@ -17,11 +17,7 @@ A comprehensive end-to-end test automation suite for [AutomationExercise.com](ht
 - [Framework Design](#-framework-design)
 - [Test Cases](#-test-cases)
 - [Installation & Setup](#-installation--setup)
-- [Running Tests](#-running-tests)
-- [Test Reports](#-test-reports)
-- [Key Features](#-key-features)
-- [Common Solutions](#-common-solutions)
-- [Contributing](#-contributing)
+
 
 ## Overview
 
@@ -323,10 +319,13 @@ Centralized WebDriver lifecycle management with robust interaction methods:
 - Maven 3.6+
 - Chrome browser
 
+### Video Link of 26 testcases Running : https://youtu.be/B5VAwy0bBdo?si=KxX-ngIiy0kWOZ42
+
 ### Installation Steps
 
 1. **Clone the repository**:
 ```bash
 git clone <repository-url>
 cd automationexercise-e2e-suite
+
 
