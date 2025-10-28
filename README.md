@@ -1,4 +1,4 @@
-# 🧪 Software Testing Diploma – Edges for Training
+# Software Testing Diploma – Edges for Training
 
 This repository contains my work and practice projects from the **Software Testing Diploma** at **Edges for Training**.  
 It covers both **manual** and **automated testing** concepts, tools, and real-world applications following **ISTQB** and **Agile** methodologies.
